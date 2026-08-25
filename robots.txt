@@ -1,0 +1,12 @@
+# Todo el sitio es público y se puede indexar.
+User-agent: *
+Allow: /
+
+# Los paquetes y el canal de actualizaciones no pintan nada en un buscador: son
+# archivos que descarga Sparkle, no páginas que alguien vaya a leer.
+Disallow: /*.zip$
+Disallow: /*.delta$
+Disallow: /appcast.xml
+Disallow: /old_updates/
+
+Sitemap: https://voiceflow.seracreativo.com/sitemap.xml

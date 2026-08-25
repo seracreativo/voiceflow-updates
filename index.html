@@ -1,15 +1,76 @@
 <!doctype html>
+<html lang="es">
 <meta charset="utf-8">
-<title>VoiceFlow · actualizaciones</title>
+<title>VoiceFlow · Dictado por voz para Mac</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  :root { color-scheme: light dark; }
-  body { font: 16px/1.6 -apple-system, system-ui, sans-serif; max-width: 34rem;
-         margin: 12vh auto; padding: 0 1.5rem; }
-  code { background: color-mix(in srgb, currentColor 10%, transparent);
-         padding: .15em .4em; border-radius: .3em; }
-</style>
-<h1>VoiceFlow · actualizaciones</h1>
-<p>Este sitio sirve el canal de actualizaciones de VoiceFlow. No hay nada que ver aquí:
-lo consulta la app por su cuenta.</p>
-<p>El archivo es <a href="appcast.xml"><code>appcast.xml</code></a>.</p>
+<meta name="description" content="Dictado por voz para macOS. Mantienes una tecla, hablas, y el texto aparece donde esté el cursor, ya limpio. Todo ocurre en tu Mac.">
+<link rel="stylesheet" href="/_estilo.css">
+
+<header class="hero">
+  <h1>Hablas y aparece escrito.</h1>
+  <p class="entradilla">Mantienes una tecla, dictas, y el texto entra donde esté el cursor
+  —en Notion, en la terminal, en un correo— ya sin muletillas y con las comas puestas.
+  <strong>Nada de lo que dices sale de tu Mac.</strong></p>
+
+  <picture>
+    <source srcset="/hud-oscuro.png" media="(prefers-color-scheme: dark)">
+    <img src="/hud-claro.png" alt="El indicador de VoiceFlow mientras escucha, mostrando la onda de la voz" class="hud">
+  </picture>
+
+  <p class="descarga">
+    <a class="boton" href="/VoiceFlow.zip" download>Descargar para Mac</a>
+  </p>
+  <p class="nota requisitos">
+    Versión <span id="version">1.1.0</span> · 6,5 MB · Intel y Apple&nbsp;Silicon<br>
+    <strong>Requiere macOS 26 o posterior.</strong>
+  </p>
+</header>
+
+<h2>Por qué no sale nada de tu Mac</h2>
+<p>La transcripción la hace el motor de voz del propio sistema y la limpieza del texto se
+resuelve con reglas y con el modelo de lenguaje que macOS ya lleva dentro. No hay servidor
+nuestro por medio: ni el audio ni el texto se envían a ninguna parte, y VoiceFlow funciona
+igual sin conexión.</p>
+<p>Eso no es una promesa de página web, es cómo está construida: no existe el código que
+enviaría nada.</p>
+
+<h2>Se adapta a dónde estás escribiendo</h2>
+<ul>
+  <li><strong>Tres niveles de pulido.</strong> Literal deja lo que dijiste tal cual;
+  Limpio quita muletillas y puntúa; Redactado reordena para que se lea bien.</li>
+  <li><strong>Un nivel distinto por aplicación.</strong> En la terminal interesa lo
+  literal; en un correo, lo redactado. Se recuerda por app.</li>
+  <li><strong>Tus palabras raras, bien escritas.</strong> Nombres propios, siglas y
+  tecnicismos que quieras que salgan siempre igual.</li>
+  <li><strong>Rectificaciones habladas.</strong> Si dices «el total son cuarenta euros,
+  perdón, cincuenta», se queda con cincuenta.</li>
+  <li><strong>Traducción al vuelo.</strong> Seleccionas un texto, pulsas el atajo y
+  aparece traducido, listo para sustituirlo o copiarlo.</li>
+</ul>
+
+<h2>Gratis, y no caduca</h2>
+<div class="caja">
+  <p><strong>El plan gratuito es permanente</strong> y no es una versión mutilada: dictado
+  completo, limpieza por reglas, 25 términos propios y una semana de historial. Al
+  instalar tienes además <strong>14 días con todo Pro</strong>, sin cuenta ni tarjeta.</p>
+  <p class="nota">Cuando terminan los 14 días no se rompe nada ni se borra nada: dejas de
+  ver los extras y sigues dictando.</p>
+  <p><a href="/comprar">Qué añade VoiceFlow Pro — 59 €, pago único</a></p>
+</div>
+
+<h2>La primera vez que la abras</h2>
+<p>VoiceFlow te va a pedir dos permisos, y conviene saber para qué antes de concederlos:</p>
+<ul>
+  <li><strong>Micrófono</strong>, para oír lo que dictas. Evidente, pero ahí está.</li>
+  <li><strong>Accesibilidad</strong>, que suena peor de lo que es: es la única forma que da
+  macOS de escribir texto en otra aplicación. Sin ese permiso VoiceFlow transcribe pero no
+  puede dejar el texto en ningún sitio.</li>
+</ul>
+<p class="nota">La app va firmada con Developer ID y notarizada por Apple, así que se abre
+sin avisos ni rodeos. Se actualiza sola desde aquí, y cada actualización va firmada: si la
+firma no es la nuestra, tu copia la rechaza.</p>
+
+<footer>
+  <p><a href="/comprar">Comprar Pro</a> · <a href="/licencia">Cómo funciona la licencia</a></p>
+  <p class="nota">Hecho en España. Sin cuentas, sin analítica y sin telemetría.</p>
+</footer>

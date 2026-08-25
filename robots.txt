@@ -8,5 +8,7 @@ Disallow: /*.zip$
 Disallow: /*.delta$
 Disallow: /appcast.xml
 Disallow: /old_updates/
+# Los fragmentos que enseña el diálogo de actualización, no páginas
+Disallow: /notas/
 
 Sitemap: https://voiceflow.seracreativo.com/sitemap.xml

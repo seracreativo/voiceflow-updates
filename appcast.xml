@@ -3,6 +3,18 @@
     <channel>
         <title>voiceflow</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Tue, 25 Aug 2026 22:35:37 +0200</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.2.1.zip" length="6819337" type="application/octet-stream" sparkle:edSignature="LbMWwL4z3pSKnUU6WOpmvHODURyu9k+3RdAxZmuM/HbTtulMrPNOaGfffWMUtRHUNa9THMOzkpu23bIBfo3/Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow5-4.delta" sparkle:deltaFrom="4" length="283494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O7U5pGY3ycCJ8iZV05cBC2akQrHPvEUe+sOC/Jk2sbjZzHcDlUVRBXgMmsnu9LuWnpmEm+stmxbIdRBKbk1BDg=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow5-2.delta" sparkle:deltaFrom="2" length="369298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J+tcOq8r3i7Tw/yeno7inwysycReOYawvfXxbxM91Mt63htB7ddmYAJjiifvdA7d8If4o90HDgE5pYiath5eBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.0</title>
             <pubDate>Tue, 25 Aug 2026 22:07:34 +0200</pubDate>
             <sparkle:version>4</sparkle:version>

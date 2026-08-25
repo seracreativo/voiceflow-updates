@@ -232,6 +232,12 @@ span.destacado { color: var(--check); font-weight: 600; }
                 text-transform: uppercase; color: var(--suave); margin-top: .9rem; }
 .tabla .quien:first-child { margin-top: 0; }
 .tabla td { vertical-align: top; }
+
+/* La tabla y su nota van juntas: el marco coloca a sus hijos en fila y sin esto la
+   nota se iba al lado de la tabla en vez de debajo. */
+.conNota { width: 100%; }
+.conNota .tabla { margin-top: 0; }
+.conNota .nota { margin: 0.4rem 0 0; }
 .precio { display: flex; align-items: baseline; gap: .5rem; margin: .3rem 0 1.2rem; }
 .precio strong { font-size: 2.2rem; letter-spacing: -.03em; }
 .precio span { color: var(--suave); font-size: .95rem; }

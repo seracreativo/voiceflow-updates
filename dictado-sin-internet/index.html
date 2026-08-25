@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Dictado en Mac sin internet · Cómo funciona y qué se pierde</title>
-  <meta name="description" content="Se puede dictar en un Mac sin conexión, con el motor que ya trae macOS. Qué funciona sin internet, qué no, y por qué casi ninguna app de dictado puede prometerlo.">
+  <meta name="description" content="Se puede dictar en un Mac sin conexión, con el motor que ya trae macOS. Qué funciona sin internet, qué no, y por qué casi ninguna app puede prometerlo.">
   <link rel="canonical" href="https://voiceflow.seracreativo.com/dictado-sin-internet/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="VoiceFlow">
@@ -23,6 +23,8 @@
   <meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
 </head>
 <body>
+<div class="lineas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
 <nav>
   <div class="limite">
     <a class="marca" href="/"><img src="/img/icono-64.png" alt="">VoiceFlow</a>
@@ -38,81 +40,69 @@
 </nav>
 <header class="hero limite">
   <h1>Dictar en un Mac sin internet</h1>
-  <p class="entradilla">Sí se puede, y no hace falta descargar ningún modelo: macOS trae
-  el motor dentro desde la versión 26. Lo raro no es que funcione —es que casi ninguna
-  app de dictado lo aproveche.</p>
+  <p class="entradilla">Sí se puede, y no hace falta descargar ningún modelo: macOS trae el motor dentro desde la versión&nbsp;26. Lo raro no es que funcione —es que casi ninguna app de dictado lo aproveche.</p>
 </header>
 
-<section class="limite bloque">
-  <h2>Por qué la mayoría necesita conexión</h2>
-  <p class="apagado">Casi todas las apps de dictado mandan el audio a un servidor, lo
-  transcriben allí y devuelven el texto. Lo hacen porque hasta hace poco era la única
-  forma de conseguir buena precisión, y porque un servidor propio permite cobrar una
-  suscripción.</p>
-  <p class="apagado">Eso tiene tres consecuencias que se notan a diario, y ninguna
-  aparece en la portada de esas apps:</p>
-  <ul class="pegas">
-    <li><strong>En un tren o en un avión no escribes.</strong> Sin cobertura no hay
-    dictado, por muy caro que sea el plan.</li>
-    <li><strong>Tu voz sale de tu ordenador.</strong> Si dictas informes médicos,
-    expedientes o notas de un cliente, eso ya es una decisión que tomas por tu cuenta y
-    riesgo.</li>
-    <li><strong>Esperas.</strong> La red añade su tiempo por cada dictado, y no hay
-    forma de recuperarlo.</li>
-  </ul>
-</section>
+<div class="limite">
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">01 · El problema</p>
+      <h3>Casi todas necesitan conexión.</h3>
+      <p class="apagado">Mandan el audio a un servidor, lo transcriben allí y devuelven el texto. Lo hacen porque hasta hace poco era la única forma de conseguir buena precisión, y porque un servidor propio permite cobrar una suscripción.</p>
+      <ul class="pegas">
+        <li><strong>En un tren o en un avión no escribes.</strong> Sin cobertura no hay dictado, por muy caro que sea el plan.</li>
+        <li><strong>Tu voz sale de tu ordenador.</strong> Si dictas informes médicos, expedientes o notas de un cliente, eso es una decisión que tomas por tu cuenta.</li>
+        <li><strong>Esperas.</strong> La red añade su tiempo en cada dictado, y no hay forma de recuperarlo.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">02 · La otra vía</p>
+      <h3>El motor ya está en tu Mac.</h3>
+      <p class="apagado">Desde macOS&nbsp;26, Apple incluye <strong>SpeechAnalyzer</strong>, un motor de reconocimiento de voz que corre en el propio dispositivo y cubre 30 locales, con español de España, México, Chile y Estados Unidos entre ellos.</p>
+      <p class="apagado">VoiceFlow está construido sobre él. Por eso el paquete pesa <strong>6,5&nbsp;MB</strong> y no descarga ningún modelo: lo que hace falta ya venía con el sistema.</p>
+      <p class="apagado">La prueba se hace en diez segundos: <strong>apaga el Wi-Fi y sigue dictando.</strong></p>
+    </div>
+  </section>
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">03 · El detalle</p>
+      <h3>Qué funciona y qué no.</h3>
+      <p class="apagado">Ser honesto con esto importa más que la promesa, porque es lo que se descubre al segundo día.</p>
+      <p class="apagado">El pulido por reglas —muletillas, puntuación, acentos, correcciones habladas— no usa ningún modelo de lenguaje: son reglas deterministas que tardan <strong>menos de 10&nbsp;ms</strong> por dictado. Esa cifra sale del banco de pruebas del proyecto, que corre en cada cambio sobre 62 casos.</p>
+    </div>
+    <div class="media"><div class="marco">
+      <table class="tabla">
+        <thead><tr><th>Función</th><th>Sin internet</th></tr></thead>
+        <tbody>
+          <tr><td>Transcribir lo que dices</td><td class="si">Funciona</td></tr>
+          <tr><td>Quitar muletillas y puntuar</td><td class="si">Funciona</td></tr>
+          <tr><td>Resolver las correcciones habladas</td><td class="si">Funciona</td></tr>
+          <tr><td>Tu vocabulario propio</td><td class="si">Funciona</td></tr>
+          <tr><td>Escribir donde esté el cursor</td><td class="si">Funciona</td></tr>
+          <tr><td>Reescribir el texto entero</td><td class="si">Funciona, con Apple Intelligence</td></tr>
+          <tr><td>Traducir lo seleccionado</td><td class="no">Descarga el idioma una vez</td></tr>
+          <tr><td>Buscar actualizaciones</td><td class="no">Necesita conexión</td></tr>
+        </tbody>
+      </table>
+    </div></div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">04 · La duda</p>
+      <h3>¿Y el dictado que ya trae el Mac?</h3>
+      <p class="apagado">También funciona sin conexión, y usa el mismo motor. La diferencia no está en transcribir: está en lo que pasa después.</p>
+      <p class="apagado">Lo contamos entero en <a href="/vs/dictado-de-macos/">la comparación con el dictado de macOS</a>, con el mismo audio pasado por los dos caminos.</p>
+    </div>
+  </section>
+</div>
 
 <section class="limite bloque">
-  <h2>La otra vía: el motor que ya está en tu Mac</h2>
-  <p class="apagado">Desde macOS&nbsp;26, Apple incluye <strong>SpeechAnalyzer</strong>,
-  un motor de reconocimiento de voz que corre en el propio dispositivo y cubre 30
-  locales, con español de España, México, Chile y Estados Unidos entre ellos.</p>
-  <p class="apagado">VoiceFlow está construido sobre él. Eso significa que el paquete
-  pesa <strong>6,5 MB</strong> y que no descarga ningún modelo: lo que hace falta ya
-  venía con el sistema.</p>
-  <p class="apagado">La prueba es sencilla y se puede hacer en diez segundos:
-  <strong>apaga el Wi-Fi y sigue dictando.</strong></p>
-</section>
-
-<section class="limite bloque">
-  <h2>Qué funciona sin conexión y qué no</h2>
-  <p class="apagado">Ser honesto con esto importa más que la promesa, porque es lo que
-  se descubre al segundo día:</p>
-  <table class="tabla">
-    <thead><tr><th>Función</th><th>Sin internet</th></tr></thead>
-    <tbody>
-      <tr><td>Transcribir lo que dices</td><td class="si">Funciona</td></tr>
-      <tr><td>Quitar muletillas y puntuar</td><td class="si">Funciona</td></tr>
-      <tr><td>Resolver las correcciones habladas</td><td class="si">Funciona</td></tr>
-      <tr><td>Tu vocabulario propio</td><td class="si">Funciona</td></tr>
-      <tr><td>Escribir donde esté el cursor</td><td class="si">Funciona</td></tr>
-      <tr><td>Reescribir el texto entero (nivel Redactado)</td><td class="si">Funciona, con Apple Intelligence</td></tr>
-      <tr><td>Traducir lo seleccionado</td><td class="no">Necesita descargar el idioma una vez</td></tr>
-      <tr><td>Buscar actualizaciones</td><td class="no">Necesita conexión</td></tr>
-    </tbody>
-  </table>
-  <p class="apagado">El pulido por reglas —muletillas, puntuación, acentos, correcciones
-  habladas— no usa ningún modelo de lenguaje: son reglas deterministas que tardan
-  <strong>menos de 10&nbsp;ms</strong> por dictado. Esa cifra sale del banco de pruebas
-  del proyecto, que corre en cada cambio sobre 62 casos.</p>
-</section>
-
-<section class="limite bloque">
-  <h2>¿Y el dictado que ya trae el Mac?</h2>
-  <p class="apagado">macOS lleva dictado desde hace años y también funciona sin
-  conexión. La diferencia no está en transcribir, está en lo que pasa después.</p>
-  <p class="apagado">El dictado del sistema escribe lo que oye, tal cual: con los «eh»,
-  sin comas, y si te corriges a media frase se queda con las dos versiones. VoiceFlow
-  entrega el texto ya terminado —y elige cuánto pulir según la app en la que estés,
-  porque en la terminal quieres lo que dijiste literal y en un correo no.</p>
-  <p class="apagado">Si el dictado del sistema te vale, no necesitas nada más. Esta
-  página es para quien ya lo ha probado y ha vuelto a escribir a mano.</p>
-</section>
-
-<section class="limite bloque">
-  <h2>Probarlo</h2>
-  <p class="apagado">Gratis para empezar, con 14 días de todo lo de Pro. Sin cuenta,
-  sin correo y sin formulario: se descarga y ya está.</p>
+  <p class="kicker">Probarlo</p>
+  <h2>Gratis para empezar.</h2>
+  <p class="apagado">Con 14 días de todo lo de Pro. Sin cuenta, sin correo y sin
+  formulario: se descarga y ya está.</p>
   <div class="acciones">
     <a class="boton" href="/VoiceFlow.zip" download>Descargar para Mac</a>
     <a class="boton2" href="/">Ver qué hace</a>
@@ -126,57 +116,6 @@
     <p class="nota">Hecho en España. La app no lleva cuentas ni telemetría: lo que dictas no sale de tu Mac.</p>
   </div>
 </footer>
-
-<!-- Cloudflare Web Analytics: cuenta visitas del sitio sin cookies y sin huella del
-     visitante, así que no hay nada que consentir y no lleva banner. No tiene relación
-     con la app: lo que se dicta sigue sin salir del Mac. -->
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"token": "0e7438bd038744daa928f862cc8375f4"}'></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "VoiceFlow",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "macOS 26",
-  "softwareVersion": "1.3.1",
-  "url": "https://voiceflow.seracreativo.com/",
-  "downloadUrl": "https://voiceflow.seracreativo.com/VoiceFlow-1.3.1.zip",
-  "installUrl": "https://voiceflow.seracreativo.com/",
-  "screenshot": "https://voiceflow.seracreativo.com/img/og.png",
-  "inLanguage": "es-ES",
-  "description": "Dictado por voz para Mac. Mantienes una tecla, hablas, y el texto aparece donde esté el cursor, ya sin muletillas y con la puntuación puesta. La transcripción ocurre en el propio Mac: ni el audio ni el texto salen del dispositivo.",
-  "featureList": [
-    "Dictado en cualquier aplicación, donde esté el cursor",
-    "Tres niveles de pulido, uno por aplicación",
-    "Rectificaciones habladas",
-    "Traducción de lo seleccionado",
-    "Vocabulario propio para nombres y tecnicismos",
-    "Funciona sin conexión"
-  ],
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "Gratuito",
-      "price": "0",
-      "priceCurrency": "EUR"
-    },
-    {
-      "@type": "Offer",
-      "name": "VoiceFlow Pro",
-      "price": "59",
-      "priceCurrency": "EUR",
-      "url": "https://voiceflow.seracreativo.com/comprar/",
-      "description": "Pago único, sin suscripción"
-    }
-  ],
-  "author": {
-    "@type": "Organization",
-    "name": "Sera Creativo",
-    "url": "https://seracreativo.com"
-  }
-}
-</script>
 
 <!-- Cloudflare Web Analytics: cuenta visitas del sitio sin cookies y sin huella del
      visitante, así que no hay nada que consentir y no lleva banner. No tiene relación

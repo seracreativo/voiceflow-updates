@@ -102,13 +102,6 @@ body > *:not(.lineas) { position: relative; z-index: 1; }
 @media (max-width: 860px) { .bloque > * { grid-column: 1 / -1; } }
 @media (max-width: 860px) {
   .fila > .texto, .fila.derecha > .texto, .fila > .media { grid-column: 1 / -1; }
-
-/* Las secciones de solo texto también viven en la rejilla: cuatro columnas, que
-   es el ancho al que una línea larga se sigue leyendo de un vistazo. */
-.bloque { display: grid; grid-template-columns: repeat(6, 1fr); padding: 3rem 0; }
-.bloque > * { grid-column: 1 / 5; }
-.bloque > .ancho { grid-column: 1 / -1; }
-@media (max-width: 860px) { .bloque > * { grid-column: 1 / -1; } }
   .fila { padding-block: 2rem; }
 }
 
@@ -231,6 +224,14 @@ ul.pegas li strong { color: var(--tinta); font-weight: 600; }
 /* El resultado bueno dentro de una comparación. Va en color y en negrita: el color
    solo no serviría para quien no lo distingue. */
 span.destacado { color: var(--check); font-weight: 600; }
+
+/* En la comparación, quién escribe qué. Va como etiqueta pequeña encima de cada
+   resultado en vez de en una columna propia: en el móvil una tercera columna
+   obliga a desplazar la tabla justo cuando hay menos sitio. */
+.tabla .quien { display: block; font-size: .75rem; letter-spacing: 1.1px;
+                text-transform: uppercase; color: var(--suave); margin-top: .9rem; }
+.tabla .quien:first-child { margin-top: 0; }
+.tabla td { vertical-align: top; }
 .precio { display: flex; align-items: baseline; gap: .5rem; margin: .3rem 0 1.2rem; }
 .precio strong { font-size: 2.2rem; letter-spacing: -.03em; }
 .precio span { color: var(--suave); font-size: .95rem; }

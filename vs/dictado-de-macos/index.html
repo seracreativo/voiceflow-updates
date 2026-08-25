@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>VoiceFlow o el dictado de macOS · Qué cambia de verdad</title>
-  <meta name="description" content="Los dos usan el mismo motor de voz de Apple y los dos funcionan sin internet. La diferencia está en lo que se escribe: las correcciones habladas, las muletillas y el nivel por aplicación.">
+  <meta name="description" content="Los dos usan el mismo motor de voz de Apple y los dos funcionan sin internet. La diferencia está en lo que se escribe: correcciones habladas, muletillas y el nivel de pulido por aplicación.">
   <link rel="canonical" href="https://voiceflow.seracreativo.com/vs/dictado-de-macos/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="VoiceFlow">
   <meta property="og:title" content="VoiceFlow o el dictado de macOS">
-  <meta property="og:description" content="Mismo motor, mismo funcionamiento sin internet. La diferencia está en lo que se escribe.">
+  <meta property="og:description" content="Mismo motor, los dos sin internet. La diferencia está en lo que se escribe.">
   <meta property="og:url" content="https://voiceflow.seracreativo.com/vs/dictado-de-macos/">
   <meta property="og:image" content="https://voiceflow.seracreativo.com/img/og.png">
   <meta property="og:image:width" content="1200">
@@ -23,6 +23,8 @@
   <meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
 </head>
 <body>
+<div class="lineas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
 <nav>
   <div class="limite">
     <a class="marca" href="/"><img src="/img/icono-64.png" alt="">VoiceFlow</a>
@@ -38,99 +40,89 @@
 </nav>
 <header class="hero limite">
   <h1>VoiceFlow o el dictado que ya trae el Mac</h1>
-  <p class="entradilla">Los dos usan el mismo motor de voz de Apple, y los dos funcionan
-  sin internet. Si estás decidiendo si necesitas algo más, esta página es para eso.</p>
+  <p class="entradilla">Los dos usan el mismo motor de voz de Apple, y los dos funcionan sin internet. Si estás decidiendo si necesitas algo más, esta página es para eso.</p>
 </header>
 
-<section class="limite bloque">
-  <h2>Primero, lo que no nos diferencia</h2>
-  <p class="apagado">Conviene quitarlo de en medio, porque es lo que casi todas las
-  comparaciones de este tipo exageran:</p>
-  <ul class="pegas">
-    <li><strong>La precisión es la misma.</strong> VoiceFlow no lleva su propio motor de
-    reconocimiento: usa el de macOS, igual que el dictado del sistema. Lo que oye uno lo
-    oye el otro.</li>
-    <li><strong>Los dos funcionan sin conexión</strong> en un Mac reciente.</li>
-    <li><strong>El dictado del sistema puntúa, y puntúa bien.</strong> Pone comas,
-    puntos, signos de interrogación y convierte «cuarenta euros» en «40&nbsp;€». No es
-    el dictado de hace diez años.</li>
-  </ul>
-  <p class="apagado">Si alguien te dice que su app de dictado «entiende mejor» que el
-  Mac y corre en el mismo dispositivo, pregúntale con qué motor.</p>
-</section>
+<div class="limite">
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">01 · Lo común</p>
+      <h3>Primero, lo que no nos diferencia.</h3>
+      <p class="apagado">Conviene quitarlo de en medio, porque es lo que casi todas las comparaciones de este tipo exageran.</p>
+      <p class="apagado">Si alguien te dice que su app de dictado «entiende mejor» que el Mac y corre en el mismo dispositivo, pregúntale con qué motor.</p>
+      <ul class="pegas">
+        <li><strong>La precisión es la misma.</strong> VoiceFlow no lleva motor propio: usa el de macOS, igual que el dictado del sistema. Lo que oye uno lo oye el otro.</li>
+        <li><strong>Los dos funcionan sin conexión</strong> en un Mac reciente.</li>
+        <li><strong>El dictado del sistema puntúa, y puntúa bien.</strong> Comas, puntos, signos de interrogación, y convierte «cuarenta euros» en «40&nbsp;€». No es el dictado de hace diez años.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">02 · La diferencia</p>
+      <h3>Te corriges hablando.</h3>
+      <p class="apagado">Dictar no es leer. Te trabas, dices una hora y la cambias a media frase. El dictado del sistema escribe lo que oye —incluida la parte que ibas a corregir—; VoiceFlow se queda con la buena.</p>
+      <p class="apagado">Estos dos ejemplos están medidos, no imaginados: es el mismo audio pasado por los dos caminos.</p>
+      <p class="apagado">Fíjate en el primero. El sistema no solo deja la hora que ibas a corregir: interpreta el «no» como una pregunta. Ese texto hay que repasarlo a mano, que es justo lo que se quería evitar.</p>
+    </div>
+    <div class="media"><div class="marco">
+      <table class="tabla">
+        <thead><tr><th>Dices</th><th>Y se escribe</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>«Nos vemos mañana a las dos,<br>no, mejor a las tres»</td>
+            <td>
+              <span class="quien">Dictado de macOS</span>
+              Nos vemos mañana a las dos, ¿no? Mejor a las tres.
+              <span class="quien">VoiceFlow</span>
+              <span class="destacado">Nos vemos mañana a las tres.</span>
+            </td>
+          </tr>
+          <tr>
+            <td>«El total son cuarenta euros,<br>perdón, cincuenta euros»</td>
+            <td>
+              <span class="quien">Dictado de macOS</span>
+              El total son 40 € perdón 50 €
+              <span class="quien">VoiceFlow</span>
+              <span class="destacado">El total son 50 €</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div></div>
+  </section>
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">03 · Y tres más</p>
+      <h3>Muletillas, contexto y tus nombres.</h3>
+      <ul class="checks">
+        <li><strong>Fuera las muletillas.</strong> Los «eh», los «bueno» y los «o sea» con los que arrancas una frase no llegan al texto.</li>
+        <li><strong>Un nivel por aplicación.</strong> En la terminal quieres lo que dijiste, literal, porque una palabra cambiada rompe un comando. En un correo quieres que se lea bien. VoiceFlow recuerda cuál usas en cada app.</li>
+        <li><strong>Tus nombres propios, bien escritos.</strong> El apellido de tu cliente, las siglas de tu sector, los nombres de tus herramientas: se los dices una vez y salen siempre con tu grafía.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">04 · Lo justo</p>
+      <h3>En qué gana el del sistema.</h3>
+      <p class="apagado">Sin rodeos, porque son razones de peso.</p>
+      <p class="apagado">Si dictas de vez en cuando y no te importa repasar el texto después, el del sistema te sobra. VoiceFlow es para quien dicta muchas veces al día y no quiere volver sobre lo escrito.</p>
+      <ul class="pegas">
+        <li><strong>Es gratis y ya está instalado.</strong> No hay nada que descargar, decidir ni pagar.</li>
+        <li><strong>No pide permiso de Accesibilidad.</strong> VoiceFlow sí, porque es la única forma que da macOS de escribir dentro de otra app.</li>
+        <li><strong>También está en el iPhone y en el iPad</strong>, con el mismo gesto.</li>
+        <li><strong>Cubre más idiomas.</strong></li>
+      </ul>
+    </div>
+  </section>
+</div>
 
 <section class="limite bloque">
-  <h2>Lo que sí cambia: te corriges hablando</h2>
-  <p class="apagado">Dictar no es leer. Te trabas, dices una hora y la cambias a media
-  frase. El dictado del sistema escribe lo que oye —incluida la parte que ibas a
-  corregir—; VoiceFlow se queda con la buena.</p>
-  <p class="apagado">Estos dos ejemplos están medidos, no imaginados. Es el mismo audio
-  pasado por los dos caminos:</p>
-
-  <table class="tabla">
-    <thead><tr><th>Dices</th><th>Y se escribe</th></tr></thead>
-    <tbody>
-      <tr>
-        <td>«Nos vemos mañana a las dos, no, mejor a las tres»</td>
-        <td>
-          <strong>Dictado de macOS</strong><br>
-          Nos vemos mañana a las dos, ¿no? Mejor a las tres.<br><br>
-          <strong>VoiceFlow</strong><br>
-          <span class="destacado">Nos vemos mañana a las tres.</span>
-        </td>
-      </tr>
-      <tr>
-        <td>«El total son cuarenta euros, perdón, cincuenta euros»</td>
-        <td>
-          <strong>Dictado de macOS</strong><br>
-          El total son 40 € perdón 50 €<br><br>
-          <strong>VoiceFlow</strong><br>
-          <span class="destacado">El total son 50 €</span>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <p class="apagado">Fíjate en el primero: el sistema no solo deja la hora que ibas a
-  corregir, sino que interpreta el «no» como una pregunta. Ese texto hay que repasarlo
-  a mano, que es exactamente lo que se quería evitar.</p>
-</section>
-
-<section class="limite bloque">
-  <h2>Y las otras tres</h2>
-  <ul class="checks">
-    <li><strong>Fuera las muletillas.</strong> Los «eh», los «bueno» y los «o sea» con
-    los que arrancas una frase no llegan al texto.</li>
-    <li><strong>Un nivel por aplicación.</strong> En la terminal quieres lo que dijiste,
-    literal, porque una palabra cambiada rompe un comando. En un correo quieres que se
-    lea bien. VoiceFlow recuerda cuál usas en cada app.</li>
-    <li><strong>Tus nombres propios, bien escritos.</strong> El apellido de tu cliente,
-    las siglas de tu sector, los nombres de tus herramientas. Se los dices una vez y
-    salen siempre con la grafía que tú escribiste.</li>
-  </ul>
-</section>
-
-<section class="limite bloque">
-  <h2>En qué gana el dictado del sistema</h2>
-  <p class="apagado">Sin rodeos, porque son razones de peso:</p>
-  <ul class="checks">
-    <li><strong>Es gratis y ya está instalado.</strong> No hay nada que descargar,
-    decidir ni pagar.</li>
-    <li><strong>No pide permiso de Accesibilidad.</strong> VoiceFlow sí, porque es la
-    única forma que da macOS de escribir dentro de otra app.</li>
-    <li><strong>También está en el iPhone y en el iPad</strong>, con el mismo gesto.</li>
-    <li><strong>Cubre más idiomas.</strong></li>
-  </ul>
-  <p class="apagado">Si dictas de vez en cuando y no te importa repasar el texto
-  después, el del sistema te sobra. VoiceFlow es para quien dicta muchas veces al día
-  y no quiere volver sobre lo escrito.</p>
-</section>
-
-<section class="limite bloque">
-  <h2>Probarlo</h2>
-  <p class="apagado">Gratis para empezar, con 14 días de todo lo de Pro. Sin cuenta,
-  sin correo y sin formulario. La comparación se hace en un minuto: dicta la misma
-  frase con los dos y mira cuál hay que repasar.</p>
+  <p class="kicker">Probarlo</p>
+  <h2>Gratis para empezar.</h2>
+  <p class="apagado">Con 14 días de todo lo de Pro. Sin cuenta, sin correo y sin
+  formulario: se descarga y ya está.</p>
   <div class="acciones">
     <a class="boton" href="/VoiceFlow.zip" download>Descargar para Mac</a>
     <a class="boton2" href="/">Ver qué hace</a>
@@ -144,57 +136,6 @@
     <p class="nota">Hecho en España. La app no lleva cuentas ni telemetría: lo que dictas no sale de tu Mac.</p>
   </div>
 </footer>
-
-<!-- Cloudflare Web Analytics: cuenta visitas del sitio sin cookies y sin huella del
-     visitante, así que no hay nada que consentir y no lleva banner. No tiene relación
-     con la app: lo que se dicta sigue sin salir del Mac. -->
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"token": "0e7438bd038744daa928f862cc8375f4"}'></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "VoiceFlow",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "macOS 26",
-  "softwareVersion": "1.3.1",
-  "url": "https://voiceflow.seracreativo.com/",
-  "downloadUrl": "https://voiceflow.seracreativo.com/VoiceFlow-1.3.1.zip",
-  "installUrl": "https://voiceflow.seracreativo.com/",
-  "screenshot": "https://voiceflow.seracreativo.com/img/og.png",
-  "inLanguage": "es-ES",
-  "description": "Dictado por voz para Mac. Mantienes una tecla, hablas, y el texto aparece donde esté el cursor, ya sin muletillas y con la puntuación puesta. La transcripción ocurre en el propio Mac: ni el audio ni el texto salen del dispositivo.",
-  "featureList": [
-    "Dictado en cualquier aplicación, donde esté el cursor",
-    "Tres niveles de pulido, uno por aplicación",
-    "Rectificaciones habladas",
-    "Traducción de lo seleccionado",
-    "Vocabulario propio para nombres y tecnicismos",
-    "Funciona sin conexión"
-  ],
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "Gratuito",
-      "price": "0",
-      "priceCurrency": "EUR"
-    },
-    {
-      "@type": "Offer",
-      "name": "VoiceFlow Pro",
-      "price": "59",
-      "priceCurrency": "EUR",
-      "url": "https://voiceflow.seracreativo.com/comprar/",
-      "description": "Pago único, sin suscripción"
-    }
-  ],
-  "author": {
-    "@type": "Organization",
-    "name": "Sera Creativo",
-    "url": "https://seracreativo.com"
-  }
-}
-</script>
 
 <!-- Cloudflare Web Analytics: cuenta visitas del sitio sin cookies y sin huella del
      visitante, así que no hay nada que consentir y no lleva banner. No tiene relación

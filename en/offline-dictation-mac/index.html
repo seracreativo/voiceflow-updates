@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Offline dictation on a Mac · What works and what doesn't</title>
+  <meta name="description" content="You can dictate on a Mac with no connection, using the engine macOS already ships with. What works offline, what doesn't, and why almost no dictation app can promise it.">
+  <link rel="alternate" hreflang="es" href="https://voiceflow.seracreativo.com/dictado-sin-internet/">
+  <link rel="alternate" hreflang="en" href="https://voiceflow.seracreativo.com/en/offline-dictation-mac/">
+  <link rel="alternate" hreflang="x-default" href="https://voiceflow.seracreativo.com/dictado-sin-internet/">
+  <link rel="canonical" href="https://voiceflow.seracreativo.com/en/offline-dictation-mac/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="VoiceFlow">
+  <meta property="og:title" content="Offline dictation on a Mac">
+  <meta property="og:description" content="What works with no connection, what doesn't, and why almost no dictation app can promise it.">
+  <meta property="og:url" content="https://voiceflow.seracreativo.com/en/offline-dictation-mac/">
+  <meta property="og:image" content="https://voiceflow.seracreativo.com/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/img/icono-64.png">
+  <link rel="apple-touch-icon" href="/img/icono.png">
+  <link rel="stylesheet" href="/_estilo.css">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+<div class="lineas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+<nav>
+  <div class="limite">
+    <a class="marca" href="/en/"><img src="/img/icono-64.png" alt="">VoiceFlow</a>
+    <div class="enlaces">
+      <a class="nav" href="#what">What it does</a>
+      <a class="nav" href="#translator">Translator</a>
+      <a class="nav" href="#engine">Engine</a>
+      <a class="nav" href="#pricing">Pricing</a>
+      <a class="nav" href="#licence">Licence</a>
+    </div>
+    <a class="nav" href="/">ES</a>
+      <a class="boton" href="/VoiceFlow.zip" download>Download</a>
+  </div>
+</nav>
+<header class="hero limite">
+  <h1>Dictating on a Mac with no internet</h1>
+  <p class="entradilla">You can, and there's no model to download: macOS has shipped the engine since version&nbsp;26. The odd part isn't that it works — it's that almost no dictation app uses it.</p>
+</header>
+
+<div class="limite">
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">01 · The problem</p>
+      <h3>Most of them need a connection.</h3>
+      <p class="apagado">They send the audio to a server, transcribe it there and send the text back. They do it because until recently that was the only way to get good accuracy, and because owning a server is what lets you charge a subscription.</p>
+      <ul class="pegas">
+        <li><strong>On a plane or a train, you don't write.</strong> No signal, no dictation, however much the plan costs.</li>
+        <li><strong>Your voice leaves your computer.</strong> If you dictate medical notes, case files or anything about a client, that's a decision you're making on your own.</li>
+        <li><strong>You wait.</strong> The network adds its own time to every dictation, and there's no getting it back.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">02 · The other way</p>
+      <h3>The engine is already on your Mac.</h3>
+      <p class="apagado">Since macOS&nbsp;26, Apple ships <strong>SpeechAnalyzer</strong>, a speech recognition engine that runs on the device itself and covers 30 locales.</p>
+      <p class="apagado">VoiceFlow is built on it. That's why the download is <strong>6.5&nbsp;MB</strong> and why it fetches no model at all: what it needs already came with the system.</p>
+      <p class="apagado">The test takes ten seconds: <strong>turn off the Wi-Fi and keep dictating.</strong></p>
+    </div>
+  </section>
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">03 · The detail</p>
+      <h3>What works and what doesn't.</h3>
+      <p class="apagado">Being honest about this matters more than the promise, because it's what you find out on day two.</p>
+      <p class="apagado">The rule-based cleanup — filler words, punctuation, spoken corrections — uses no language model at all: they're deterministic rules that take <strong>under 10&nbsp;ms</strong> per dictation. That figure comes from the project's own test bench, which runs on every change across 62 cases.</p>
+    </div>
+    <div class="media"><div class="marco">
+      <div class="conNota">
+      <table class="tabla">
+        <thead><tr><th>Feature</th><th>With no internet</th></tr></thead>
+        <tbody>
+          <tr><td>Transcribing what you say</td><td class="si">Works</td></tr>
+          <tr><td>Removing filler words and punctuating</td><td class="si">Works</td></tr>
+          <tr><td>Resolving spoken corrections</td><td class="si">Works</td></tr>
+          <tr><td>Your own vocabulary</td><td class="si">Works</td></tr>
+          <tr><td>Typing where your cursor is</td><td class="si">Works</td></tr>
+          <tr><td>Rewriting the whole text</td><td class="si">Works, with Apple Intelligence</td></tr>
+          <tr><td>Translating a selection</td><td class="no">Downloads the language once</td></tr>
+          <tr><td>Checking for updates</td><td class="no">Needs a connection</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </div></div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">04 · The obvious question</p>
+      <h3>What about the dictation macOS already has?</h3>
+      <p class="apagado">It also works offline, and it uses the same engine. The difference isn't in the transcribing: it's in what happens next.</p>
+      <p class="apagado">The whole story is in <a href="/en/vs/macos-dictation/">the comparison with macOS dictation</a>, with the same audio run through both.</p>
+    </div>
+  </section>
+</div>
+
+<section class="limite bloque">
+  <p class="kicker">Try it</p>
+  <h2>Free to start.</h2>
+  <p class="apagado">With 14 days of everything in Pro. No account, no email and no
+  form: you download it and that's it.</p>
+  <div class="acciones">
+    <a class="boton" href="/VoiceFlow.zip" download>Download for Mac</a>
+    <a class="boton2" href="/en/">See what it does</a>
+  </div>
+  <p class="requisitos">Version <span id="version">1.3.2</span> · 6.5 MB ·
+  Intel and Apple&nbsp;Silicon · requires macOS&nbsp;26</p>
+</section>
+<footer>
+  <div class="limite">
+    <p><a href="/comprar/">Buy Pro</a> · <a href="/licencia/">The licence</a></p>
+    <p class="nota">Made in Spain. The app has no accounts and no telemetry: what you dictate never leaves your Mac.</p>
+  </div>
+</footer>
+
+<!-- Cloudflare Web Analytics: cuenta visitas del sitio sin cookies y sin huella del
+     visitante, así que no hay nada que consentir y no lleva banner. No tiene relación
+     con la app: lo que se dicta sigue sin salir del Mac. -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "0e7438bd038744daa928f862cc8375f4"}'></script>

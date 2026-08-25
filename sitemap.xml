@@ -40,4 +40,24 @@
     <lastmod>2026-08-26</lastmod>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://voiceflow.seracreativo.com/en/offline-dictation-mac/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://voiceflow.seracreativo.com/en/vs/macos-dictation/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://voiceflow.seracreativo.com/en/vs/wispr-flow/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://voiceflow.seracreativo.com/en/vs/superwhisper/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>

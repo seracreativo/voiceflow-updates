@@ -65,8 +65,8 @@ nav .boton { padding: .5rem 1.05rem; font-size: .93rem; }
 }
 .pildora::before { content: ""; width: 7px; height: 7px; border-radius: 50%;
                    background: var(--check); }
-.hero .icono { width: 84px; height: 84px; border-radius: 20px; margin-bottom: 1.6rem;
-               box-shadow: 0 8px 28px rgba(0,0,0,.16); }
+.hero .icono { display: block; width: 84px; height: 84px; border-radius: 20px;
+               margin: 0 auto 1.5rem; box-shadow: 0 8px 28px rgba(0,0,0,.16); }
 h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02;
      letter-spacing: -.035em; margin: 0 0 1.2rem; font-weight: 700; }
 .entradilla { font-size: 1.18rem; color: var(--suave); max-width: 34rem;
@@ -84,11 +84,12 @@ h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02;
 .marco img { display: block; width: 100%; height: auto; border-radius: .6rem; }
 .marco.hud { padding: 2.6rem; }
 .marco.hud img { max-width: 30rem; box-shadow: none; border-radius: .8rem; }
-.marco.recorte img { max-height: 30rem; width: auto; object-fit: contain;
-                     object-position: top; }
+.marco.recorte img { width: 100%; height: 23rem; object-fit: cover;
+                     object-position: top center; }
+@media (max-width: 860px) { .marco.recorte img { height: 18rem; } }
 
 /* ── Secciones ─────────────────────────────────────────────────────────── */
-section { padding: 3.5rem 0; }
+section { padding: 3rem 0; }
 .kicker { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase;
           color: var(--suave); margin: 0 0 .7rem; font-weight: 600; }
 h2 { font-size: clamp(1.9rem, 4vw, 2.7rem); line-height: 1.08;
@@ -98,8 +99,9 @@ p { margin: 0 0 1rem; }
 .apagado { color: var(--suave); }
 
 /* Texto + captura, alternando lado. */
-.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem;
-       align-items: center; padding: 3rem 0; }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;
+       align-items: center; padding: 2rem 0; }
+.duo > * { min-width: 0; }   /* sin esto una imagen ancha desborda su columna */
 .duo.invertido .texto { order: 2; }
 @media (max-width: 860px) {
   .duo { grid-template-columns: 1fr; gap: 2rem; }

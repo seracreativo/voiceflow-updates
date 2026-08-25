@@ -1,5 +1,5 @@
 <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430"
-     role="img" aria-label="Pegas la licencia una vez, se verifica la firma en tu propio Mac sin conexión ni servidor, y aparece sola en tus otros dispositivos por el Llavero de iCloud">
+     role="img" aria-label="You paste the licence once, the signature is verified on your own Mac with no connection and no server, and it shows up on your other devices through the iCloud Keychain">
   <rect x="1" y="1" width="718" height="428" rx="14" class="lienzo"/>
   <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
   <circle cx="26" cy="21" r="6" class="p1"/>

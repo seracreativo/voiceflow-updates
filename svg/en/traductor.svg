@@ -1,5 +1,5 @@
 <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400"
-     width="720" height="400" role="img" aria-label="Seleccionas un texto en español, pulsas el atajo y aparece una ventanita con la traducción al inglés, con las acciones de copiar y sustituir">
+     width="720" height="400" role="img" aria-label="You select some Spanish text, press the shortcut, and a small panel shows the English translation, with copy and replace actions">
   <rect x="1" y="1" width="718" height="398" rx="14" class="lienzo"/>
   <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
   <circle cx="26" cy="21" r="6" class="p1"/>

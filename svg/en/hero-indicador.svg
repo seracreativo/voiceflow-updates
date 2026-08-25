@@ -1,5 +1,5 @@
 <svg class="grafico" id="indicador" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 150" width="660" height="150"
-     role="img" aria-label="El indicador de VoiceFlow recorriendo sus fases: preparando, escuchando con la onda de la voz, puliendo, traduciendo al inglés y escribiendo">
+     role="img" aria-label="The VoiceFlow indicator going through its phases: getting ready, listening with the voice waveform, polishing, translating to Spanish and typing">
   <style>
     #indicador .capsula{fill:#16161a}
     #indicador .barra{fill:#34e07a;transform-box:fill-box;transform-origin:center}

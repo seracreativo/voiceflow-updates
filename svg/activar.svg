@@ -6,16 +6,16 @@
   <rect x="32" y="56" width="196" height="150" rx="13" class="paso"/>
   <circle cx="62" cy="88" r="15" class="num"/>
   <text x="62" y="93" text-anchor="middle" class="numtxt">1</text>
-  <text x="54" y="134" class="titulo">Compras</text>
-  <text x="54" y="160" class="desc">Recibes un correo</text>
-  <text x="54" y="180" class="desc">en el momento.</text>
+  <text x="54" y="134" class="titulo">Lo pides</text>
+  <text x="54" y="160" class="desc">Desde la app, con tu</text>
+  <text x="54" y="180" class="desc">código ya dentro.</text>
   <path d="M244 131h24m0 0-7-7m7 7-7 7" class="flecha"/>
   <rect x="278" y="56" width="196" height="150" rx="13" class="paso"/>
   <circle cx="308" cy="88" r="15" class="num"/>
   <text x="308" y="93" text-anchor="middle" class="numtxt">2</text>
-  <text x="300" y="134" class="titulo">Vinculas</text>
-  <text x="300" y="160" class="desc">La app te copia</text>
-  <text x="300" y="180" class="desc">tu cuenta. La envías.</text>
+  <text x="300" y="134" class="titulo">Pagas</text>
+  <text x="300" y="160" class="desc">Te llega tu enlace</text>
+  <text x="300" y="180" class="desc">de pago. 59 €.</text>
   <path d="M490 131h24m0 0-7-7m7 7-7 7" class="flecha"/>
   <rect x="524" y="56" width="196" height="150" rx="13" class="paso"/>
   <circle cx="554" cy="88" r="15" class="num"/>

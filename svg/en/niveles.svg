@@ -1,5 +1,5 @@
 <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452"
-     width="720" height="452" role="img" aria-label="Los tres niveles de pulido aplicados a la misma frase: Literal la deja tal cual, Limpio la puntúa y Redactado la reescribe">
+     width="720" height="452" role="img" aria-label="The three polish levels applied to the same sentence: Verbatim leaves it as spoken, Clean punctuates it and Polished rewrites it">
   <rect x="1" y="1" width="718" height="450" rx="14" class="lienzo"/>
   <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
   <circle cx="26" cy="21" r="6" class="p1"/>

@@ -1,5 +1,5 @@
 <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390"
-     width="720" height="390" role="img" aria-label="Tres términos que el motor de voz oye mal y VoiceFlow escribe con la grafía correcta: SwiftUI, Keyva y AppDelegate.swift">
+     width="720" height="390" role="img" aria-label="Three terms the speech engine mishears and VoiceFlow spells correctly: SwiftUI, Keyva and AppDelegate.swift">
   <rect x="1" y="1" width="718" height="388" rx="14" class="lienzo"/>
   <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
   <circle cx="26" cy="21" r="6" class="p1"/>

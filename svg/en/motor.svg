@@ -1,5 +1,5 @@
 <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420"
-     role="img" aria-label="Por defecto usa el motor de macOS, que no descarga nada. Como alternativa se puede descargar Whisper, que también corre en el Mac: Pequeño 181 MB, Turbo 547 MB y Grande 1 GB, con más precisión a cambio de más peso">
+     role="img" aria-label="By default it uses the macOS engine, which downloads nothing. Whisper is available as an alternative and also runs on the Mac: Small 181 MB, Turbo 547 MB and Large 1 GB, trading weight for accuracy">
   <rect x="1" y="1" width="718" height="418" rx="14" class="lienzo"/>
   <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
   <circle cx="26" cy="21" r="6" class="p1"/><circle cx="46" cy="21" r="6" class="p2"/><circle cx="66" cy="21" r="6" class="p3"/>

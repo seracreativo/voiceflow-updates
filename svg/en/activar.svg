@@ -1,21 +1,21 @@
 <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300"
-     role="img" aria-label="Tres pasos: compras y recibes un correo, vinculas tu cuenta copiando tu huella desde la app y enviándola, y pegas la licencia que recibes. Después aparece sola en tus otros dispositivos por el Llavero de iCloud">
+     role="img" aria-label="Three steps: you ask from the app with your account code already in the email, your payment link arrives, and you paste the licence you get back. After that it shows up on your other devices through the iCloud Keychain">
   <rect x="1" y="1" width="718" height="298" rx="14" class="lienzo"/>
   <rect x="1" y="1" width="718" height="298" rx="14" class="borde"/>
 
   <rect x="32" y="56" width="196" height="150" rx="13" class="paso"/>
   <circle cx="62" cy="88" r="15" class="num"/>
   <text x="62" y="93" text-anchor="middle" class="numtxt">1</text>
-  <text x="54" y="134" class="titulo">You buy</text>
-  <text x="54" y="160" class="desc">You get an email</text>
-  <text x="54" y="180" class="desc">right there.</text>
+  <text x="54" y="134" class="titulo">You ask</text>
+  <text x="54" y="160" class="desc">From the app, with your</text>
+  <text x="54" y="180" class="desc">code already in it.</text>
   <path d="M244 131h24m0 0-7-7m7 7-7 7" class="flecha"/>
   <rect x="278" y="56" width="196" height="150" rx="13" class="paso"/>
   <circle cx="308" cy="88" r="15" class="num"/>
   <text x="308" y="93" text-anchor="middle" class="numtxt">2</text>
-  <text x="300" y="134" class="titulo">You link</text>
-  <text x="300" y="160" class="desc">The app copies</text>
-  <text x="300" y="180" class="desc">your account. You send it.</text>
+  <text x="300" y="134" class="titulo">You pay</text>
+  <text x="300" y="160" class="desc">Your payment link</text>
+  <text x="300" y="180" class="desc">arrives. €59.</text>
   <path d="M490 131h24m0 0-7-7m7 7-7 7" class="flecha"/>
   <rect x="524" y="56" width="196" height="150" rx="13" class="paso"/>
   <circle cx="554" cy="88" r="15" class="num"/>

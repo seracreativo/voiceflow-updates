@@ -1,5 +1,5 @@
 <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400"
-     width="720" height="400" role="img" aria-label="De lo que dices a lo que se escribe: «eh… nos vemos mañana a las dos, no, mejor a las tres» se convierte en «Nos vemos mañana a las tres.»">
+     width="720" height="400" role="img" aria-label="From what you say to what gets typed: «uh… see you tomorrow at two, no, make it three» becomes «See you tomorrow at three.»">
   <rect x="1" y="1" width="718" height="398" rx="14" class="lienzo"/>
   <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
   <circle cx="26" cy="21" r="6" class="p1"/>

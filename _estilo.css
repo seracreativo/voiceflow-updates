@@ -332,3 +332,18 @@ footer p { margin-bottom: .5rem; }
   .tabla { font-size: 0.9rem; }
   .tabla th, .tabla td { padding: 0.7rem 0.35rem; }
 }
+
+/* ── Pasos numerados ──────────────────────────────────────────────────────────
+   Tres columnas en pantalla ancha y una debajo de otra en el móvil. El número va
+   dentro de un círculo porque a esa altura de la página el lector ya no lee: mira
+   cuántos pasos son y decide si le compensa. */
+.pasos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem;
+         margin: 2rem 0 0; }
+.paso { border: 1px solid var(--linea); border-radius: 1.1rem; padding: 1.4rem; }
+.paso .num { display: inline-flex; align-items: center; justify-content: center;
+             width: 1.9rem; height: 1.9rem; border-radius: 50%;
+             background: var(--linea); color: var(--tinta);
+             font-size: .95rem; font-weight: 600; margin-bottom: .7rem; }
+.paso h3 { margin: 0 0 .35rem; font-size: 1.05rem; }
+.paso p { margin: 0; font-size: .96rem; }
+@media (max-width: 760px) { .pasos { grid-template-columns: 1fr; gap: 1rem; } }

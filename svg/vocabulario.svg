@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" width="720" height="390"
+     role="img" aria-label="Tres términos que el motor de voz oye mal y VoiceFlow escribe con la grafía correcta: SwiftUI, Keyva y AppDelegate.swift">
+  <style>
+    .lienzo  { fill: #ffffff; }
+    .barra   { fill: #f2f2f0; }
+    .borde   { stroke: #e4e4e0; stroke-width: 1; fill: none; }
+    .panel   { fill: #f7f7f5; }
+    .rotulo  { fill: #8a8a93; font: 500 13px 'Inter Tight', system-ui, sans-serif; letter-spacing: 1.4px; }
+    .suave   { fill: #8a8a93; font: 400 19px 'Inter Tight', system-ui, sans-serif; }
+    .fuerte  { fill: #101014; font: 500 19px 'Inter Tight', system-ui, sans-serif; }
+    .chip    { fill: #ececea; }
+    .chiptxt { fill: #55555e; font: 500 14px 'Inter Tight', system-ui, sans-serif; }
+    .verde   { fill: #16a34a; font: 500 14px 'Inter Tight', system-ui, sans-serif; }
+    .flecha  { stroke: #16a34a; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .tacha   { fill: #c9c9cf; text-decoration: line-through; }
+    .p1 { fill: #ff5f57; } .p2 { fill: #febc2e; } .p3 { fill: #28c840; }
+    .capsula { fill: #16161a; }
+    .onda    { stroke: #34e07a; stroke-width: 3; stroke-linecap: round; }
+    .capstxt { fill: #34e07a; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+    .sel     { fill: #b9d4ff; }
+    @media (prefers-color-scheme: dark) {
+      .lienzo { fill: #151519; } .barra { fill: #1d1d22; }
+      .borde  { stroke: #2a2a32; } .panel { fill: #1b1b21; }
+      .rotulo { fill: #86868f; } .suave { fill: #86868f; }
+      .fuerte { fill: #f0f0f4; } .chip { fill: #26262e; } .chiptxt { fill: #b9b9c2; }
+      .verde  { fill: #4ade80; } .flecha { stroke: #4ade80; }
+      .tacha  { fill: #55555e; } .sel { fill: #24405f; }
+    }
+  </style>
+  <rect x="1" y="1" width="718" height="388" rx="14" class="lienzo"/>
+  <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
+  <circle cx="26" cy="21" r="6" class="p1"/>
+  <circle cx="46" cy="21" r="6" class="p2"/>
+  <circle cx="66" cy="21" r="6" class="p3"/>
+  <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
+  <rect x="1" y="1" width="718" height="388" rx="14" class="borde"/>
+
+  <text x="40" y="82" class="rotulo">LO QUE OYE EL MOTOR DE VOZ</text>
+  <text x="348" y="82" class="rotulo">LO QUE SE ESCRIBE</text>
+  <rect x="32" y="100" width="656" height="58" rx="11" class="panel"/>
+  <text x="54" y="136" class="suave">swift ui</text>
+  <path d="M300 124h22m0 0-7-7m7 7-7 7" class="flecha"/>
+  <text x="348" y="136" class="fuerte">SwiftUI</text>
+  <rect x="32" y="170" width="656" height="58" rx="11" class="panel"/>
+  <text x="54" y="206" class="suave">que iva</text>
+  <path d="M300 194h22m0 0-7-7m7 7-7 7" class="flecha"/>
+  <text x="348" y="206" class="fuerte">Keyva</text>
+  <rect x="32" y="240" width="656" height="58" rx="11" class="panel"/>
+  <text x="54" y="276" class="suave">app delegate punto swift</text>
+  <path d="M300 264h22m0 0-7-7m7 7-7 7" class="flecha"/>
+  <text x="348" y="276" class="fuerte">AppDelegate.swift</text>
+  <text x="40" y="352" class="verde">✓ Se los pasa al motor de voz antes de transcribir, no después</text>
+</svg>

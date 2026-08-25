@@ -1,3 +1,54 @@
+/* ── Inter Tight ───────────────────────────────────────────────────────────
+   La misma que usan las referencias, servida desde aquí y no desde Google: esta
+   página presume de que nada sale de tu Mac, y pedirle la fuente a Google haría
+   que el navegador de cada visitante le contase a un tercero que ha entrado. De
+   paso carga antes, porque viaja con el resto del sitio.
+
+   Solo los subconjuntos latinos. El cirílico, el griego y el vietnamita son peso
+   que descargaría todo el mundo sin usarlo nunca. */
+@font-face {
+  font-family: 'Inter Tight'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('/fonts/inter-tight-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+                 U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+                 U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter Tight'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('/fonts/inter-tight-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+                 U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+                 U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Inter Tight'; font-style: normal; font-weight: 500;
+  font-display: swap; src: url('/fonts/inter-tight-500-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+                 U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+                 U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter Tight'; font-style: normal; font-weight: 500;
+  font-display: swap; src: url('/fonts/inter-tight-500-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+                 U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+                 U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Inter Tight'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('/fonts/inter-tight-600-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+                 U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+                 U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter Tight'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('/fonts/inter-tight-600-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+                 U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF,
+                 U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
 :root {
   color-scheme: light dark;
   --tinta: #101014; --fondo: #ffffff; --suave: #6b6b76;
@@ -13,19 +64,53 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
-  font: 17px/1.6 -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", sans-serif;
+  font: 21px/1.55 'Inter Tight', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   color: var(--tinta); background: var(--fondo);
   margin: 0; -webkit-font-smoothing: antialiased;
-  /* La rejilla de fondo: cuatro columnas marcadas con una línea muy tenue. Da
-     estructura sin dibujar nada, que es de donde viene la sensación de orden. */
-  background-image:
-    linear-gradient(to right, var(--linea) 1px, transparent 1px);
-  background-size: 25% 100%;
-  background-position: -1px 0;
 }
-@media (max-width: 720px) { body { background-image: none; } }
 
-.limite { max-width: 62rem; margin: 0 auto; padding: 0 1.5rem; }
+/* ── La rejilla ────────────────────────────────────────────────────────────
+   Seis columnas, sin hueco entre ellas, y el contenido anclado a sus líneas.
+   Las líneas no son un fondo decorativo: son un elemento con exactamente las
+   mismas columnas, así que cada bloque empieza justo donde hay una raya. Pintar
+   una rejilla por un lado y colocar el contenido por otro es lo que hace que una
+   página parezca ordenada de lejos y descuadrada de cerca. */
+.limite { max-width: 1198px; margin: 0 auto; padding: 0 32px; }
+
+.lineas {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  max-width: 1198px; margin: 0 auto; padding: 0 32px;
+  display: grid; grid-template-columns: repeat(6, 1fr);
+}
+.lineas i { border-left: 1px solid var(--linea); }
+.lineas i:last-child { border-right: 1px solid var(--linea); }
+body > *:not(.lineas) { position: relative; z-index: 1; }
+@media (max-width: 860px) { .lineas { display: none; } }
+
+/* Una fila de la rejilla: el texto ocupa media rejilla y la imagen, entera. */
+.fila { display: grid; grid-template-columns: repeat(6, 1fr);
+        row-gap: 44px; padding-block: 3.5rem; }
+.fila > .texto { grid-column: 1 / 4; }
+.fila.derecha > .texto { grid-column: 4 / 7; }
+.fila > .media { grid-column: 1 / -1; }
+
+/* Las secciones de solo texto también viven en la rejilla: cuatro columnas, que
+   es el ancho al que una línea larga se sigue leyendo de un vistazo. */
+.bloque { display: grid; grid-template-columns: repeat(6, 1fr); padding-block: 3rem; }
+.bloque > * { grid-column: 1 / 5; }
+.bloque > .ancho { grid-column: 1 / -1; }
+@media (max-width: 860px) { .bloque > * { grid-column: 1 / -1; } }
+@media (max-width: 860px) {
+  .fila > .texto, .fila.derecha > .texto, .fila > .media { grid-column: 1 / -1; }
+
+/* Las secciones de solo texto también viven en la rejilla: cuatro columnas, que
+   es el ancho al que una línea larga se sigue leyendo de un vistazo. */
+.bloque { display: grid; grid-template-columns: repeat(6, 1fr); padding: 3rem 0; }
+.bloque > * { grid-column: 1 / 5; }
+.bloque > .ancho { grid-column: 1 / -1; }
+@media (max-width: 860px) { .bloque > * { grid-column: 1 / -1; } }
+  .fila { padding-block: 2rem; }
+}
 
 /* ── Barra ─────────────────────────────────────────────────────────────── */
 nav {
@@ -35,9 +120,10 @@ nav {
   border-bottom: 1px solid var(--linea);
 }
 nav .limite { display: flex; align-items: center; gap: 1.4rem; height: 4rem; }
-.marca { display: flex; align-items: center; gap: .6rem; font-weight: 650;
+.marca { display: flex; align-items: center; gap: .6rem; font-weight: 550; font-size: 1.05rem;
          text-decoration: none; color: inherit; letter-spacing: -.01em; }
-.marca img { width: 28px; height: 28px; border-radius: 7px; }
+.marca img { width: 30px; height: 30px; border-radius: 7px;
+              box-shadow: 0 1px 4px rgba(0,0,0,.14); }
 nav .enlaces { display: flex; gap: 1.4rem; margin-left: auto; }
 nav a.nav { color: var(--suave); text-decoration: none; font-size: .95rem; }
 nav a.nav:hover { color: var(--tinta); }
@@ -56,7 +142,7 @@ nav a.nav:hover { color: var(--tinta); }
 nav .boton { padding: .5rem 1.05rem; font-size: .93rem; }
 
 /* ── Portada ───────────────────────────────────────────────────────────── */
-.hero { text-align: center; padding: 4.5rem 0 1rem; }
+.hero { text-align: center; padding-block: 4.5rem 1rem; }
 .pildora {
   display: inline-flex; align-items: center; gap: .5rem;
   border: 1px solid var(--borde); border-radius: 100px;
@@ -65,12 +151,12 @@ nav .boton { padding: .5rem 1.05rem; font-size: .93rem; }
 }
 .pildora::before { content: ""; width: 7px; height: 7px; border-radius: 50%;
                    background: var(--check); }
-.hero .icono { display: block; width: 84px; height: 84px; border-radius: 20px;
-               margin: 0 auto 1.5rem; box-shadow: 0 8px 28px rgba(0,0,0,.16); }
-h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02;
-     letter-spacing: -.035em; margin: 0 0 1.2rem; font-weight: 700; }
-.entradilla { font-size: 1.18rem; color: var(--suave); max-width: 34rem;
-              margin: 0 auto 2.2rem; }
+.hero .icono { display: block; width: 92px; height: 92px; margin: 0 auto 1.6rem;
+               border-radius: 21px; box-shadow: 0 10px 34px rgba(0,0,0,.13); }
+h1 { font-size: clamp(2.8rem, 7.4vw, 5.75rem); line-height: .98;
+     letter-spacing: -.035em; margin: 0 0 1.4rem; font-weight: 500; }
+.entradilla { font-size: 1.28rem; color: var(--suave); max-width: 39rem;
+              margin: 0 auto 2.4rem; line-height: 1.5; }
 .entradilla strong { color: var(--tinta); font-weight: 600; }
 .acciones { display: flex; gap: .8rem; justify-content: center; flex-wrap: wrap; }
 .requisitos { color: var(--suave); font-size: .9rem; margin-top: 1.1rem; }
@@ -78,42 +164,37 @@ h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.02;
 /* ── Marcos de imagen ──────────────────────────────────────────────────── */
 .marco {
   background: var(--caja); border: 1px solid var(--linea);
-  border-radius: 1.4rem; padding: 1.8rem; margin: 3rem 0;
+  border-radius: 1.4rem; padding: 2.2rem; margin: 0;
   display: flex; justify-content: center;
 }
+/* La captura no se estira a todo el panel: el panel es el que ocupa la rejilla
+   entera, y la imagen se queda a su tamaño legible dentro. */
+.marco img { max-width: 46rem; }
+/* La ventanita de traducción es pequeña de verdad —428 puntos—: estirarla hasta el
+   ancho de una captura de ventana la agranda más de lo que es y encima baja su
+   densidad. Se enseña a su tamaño. */
+.marco.pequeno img { max-width: 32rem; }
 .marco img { display: block; width: 100%; height: auto; border-radius: .6rem; }
-.marco.hud { padding: 2.6rem; }
-.marco.hud img { max-width: 26rem; box-shadow: none; border-radius: .8rem; }
+.marco.hud { padding: 3.2rem 2rem; }
+.marco.hud img { max-width: 34rem; box-shadow: none; border-radius: .8rem; }
 .marco img { width: 100%; height: auto; }
-.marco.recorte { padding: .9rem; }
 
 /* ── Secciones ─────────────────────────────────────────────────────────── */
-section { padding: 3rem 0; }
-.kicker { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase;
-          color: var(--suave); margin: 0 0 .7rem; font-weight: 600; }
-h2 { font-size: clamp(1.9rem, 4vw, 2.7rem); line-height: 1.08;
-     letter-spacing: -.03em; margin: 0 0 1rem; font-weight: 700; }
-h3 { font-size: 1.35rem; letter-spacing: -.015em; margin: 0 0 .7rem; font-weight: 650; }
-p { margin: 0 0 1rem; }
+section { padding-block: 3rem; }
+.kicker { font-size: .75rem; letter-spacing: .14em; text-transform: uppercase;
+          color: var(--suave); margin: 0 0 .9rem; font-weight: 500; }
+h2 { font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.05;
+     letter-spacing: -.03em; margin: 0 0 1rem; font-weight: 500; }
+h3 { font-size: 1.31rem; line-height: 1.25; letter-spacing: -.02em;
+     margin: 0 0 .7rem; font-weight: 500; }
+p { margin: 0 0 1.1rem; color: var(--suave); }
+p strong, li strong { color: var(--tinta); font-weight: 600; }
 .apagado { color: var(--suave); }
 
-/* Texto + captura, alternando lado. */
-.duo { display: grid; grid-template-columns: 1fr 1.2fr; gap: 2.6rem;
-       align-items: center; padding: 2rem 0; }
-/* La columna de la captura va algo más ancha: el texto de dentro de una captura de
-   interfaz se lee al tamaño que tiene, y encogerla lo vuelve decorativo. */
-.duo.invertido { grid-template-columns: 1.2fr 1fr; }
-.duo > * { min-width: 0; }   /* sin esto una imagen ancha desborda su columna */
-.duo.invertido .texto { order: 2; }
-@media (max-width: 860px) {
-  .duo { grid-template-columns: 1fr; gap: 2rem; }
-  .duo.invertido .texto { order: 0; }
-}
-.duo .marco { margin: 0; }
 
 ul.checks { list-style: none; padding: 0; margin: 1.2rem 0 0; }
-ul.checks li { position: relative; padding-left: 1.7rem; margin-bottom: .55rem;
-               color: var(--suave); }
+ul.checks li { position: relative; padding-left: 1.8rem; margin-bottom: .7rem;
+               color: var(--suave); font-size: .95rem; }
 ul.checks li::before { content: "✓"; position: absolute; left: 0;
                        color: var(--check); font-weight: 700; }
 ul.checks li strong { color: var(--tinta); font-weight: 600; }
@@ -121,8 +202,20 @@ ul.checks li strong { color: var(--tinta); font-weight: 600; }
 /* ── Cajas ─────────────────────────────────────────────────────────────── */
 .caja { background: var(--caja); border: 1px solid var(--linea);
         border-radius: 1.2rem; padding: 2rem; margin: 2rem 0; }
-.planes { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-top: 2rem; }
-@media (max-width: 720px) { .planes { grid-template-columns: 1fr; } }
+.planes { display: grid; grid-template-columns: repeat(6, 1fr); margin-top: 2rem; }
+.planes > * { grid-column: span 3; }
+/* Sin hueco entre las dos tarjetas: cualquier separación las saca de la rejilla, así
+   que en vez de separarlas se juntan en un bloque de dos mitades con el borde
+   compartido. El aire lo da el relleno de dentro. */
+.planes > * { border-radius: 0; margin: 0; }
+.planes > *:first-child { border-radius: 1.2rem 0 0 1.2rem; }
+.planes > *:last-child { border-radius: 0 1.2rem 1.2rem 0; margin-left: -1px; }
+@media (max-width: 860px) {
+  .planes > * { grid-column: 1 / -1; }
+  .planes { row-gap: 1.2rem; }
+  .planes > *, .planes > *:first-child, .planes > *:last-child {
+    border-radius: 1.2rem; margin-left: 0; }
+}
 .plan { background: var(--caja); border: 1px solid var(--linea);
         border-radius: 1.2rem; padding: 1.8rem; }
 .plan.destacado { border-color: var(--acento); }

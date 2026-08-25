@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400"
+     role="img" aria-label="En cualquier aplicación: mantienes la tecla opción, aparece el indicador «Escuchando» y el texto entra donde estaba el cursor">
+  <style>
+    .lienzo  { fill: #ffffff; }
+    .barra   { fill: #f2f2f0; }
+    .borde   { stroke: #e4e4e0; stroke-width: 1; fill: none; }
+    .panel   { fill: #f7f7f5; }
+    .rotulo  { fill: #8a8a93; font: 500 13px 'Inter Tight', system-ui, sans-serif; letter-spacing: 1.4px; }
+    .suave   { fill: #8a8a93; font: 400 19px 'Inter Tight', system-ui, sans-serif; }
+    .fuerte  { fill: #101014; font: 500 19px 'Inter Tight', system-ui, sans-serif; }
+    .chip    { fill: #ececea; }
+    .chiptxt { fill: #55555e; font: 500 14px 'Inter Tight', system-ui, sans-serif; }
+    .verde   { fill: #16a34a; font: 500 14px 'Inter Tight', system-ui, sans-serif; }
+    .flecha  { stroke: #16a34a; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .tacha   { fill: #c9c9cf; text-decoration: line-through; }
+    .p1 { fill: #ff5f57; } .p2 { fill: #febc2e; } .p3 { fill: #28c840; }
+    .capsula { fill: #16161a; }
+    .onda    { stroke: #34e07a; stroke-width: 3; stroke-linecap: round; }
+    .capstxt { fill: #34e07a; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+    .sel     { fill: #b9d4ff; }
+    @media (prefers-color-scheme: dark) {
+      .lienzo { fill: #151519; } .barra { fill: #1d1d22; }
+      .borde  { stroke: #2a2a32; } .panel { fill: #1b1b21; }
+      .rotulo { fill: #86868f; } .suave { fill: #86868f; }
+      .fuerte { fill: #f0f0f4; } .chip { fill: #26262e; } .chiptxt { fill: #b9b9c2; }
+      .verde  { fill: #4ade80; } .flecha { stroke: #4ade80; }
+      .tacha  { fill: #55555e; } .sel { fill: #24405f; }
+    }
+  </style>
+  <rect x="1" y="1" width="718" height="398" rx="14" class="lienzo"/>
+  <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
+  <circle cx="26" cy="21" r="6" class="p1"/>
+  <circle cx="46" cy="21" r="6" class="p2"/>
+  <circle cx="66" cy="21" r="6" class="p3"/>
+  <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
+  <rect x="1" y="1" width="718" height="398" rx="14" class="borde"/>
+
+  <text x="40" y="82" class="rotulo">EN CUALQUIER APLICACIÓN</text>
+
+  <rect x="32" y="100" width="656" height="120" rx="11" class="panel"/>
+  <text x="54" y="140" class="fuerte">Nos vemos mañana a las tres en la oficina.</text>
+  <line x1="497" y1="124" x2="497" y2="148" stroke="#2f6df6" stroke-width="2"/>
+  <text x="54" y="186" class="suave">El texto entra donde estaba el cursor.</text>
+
+  <line x1="300" y1="282" x2="300" y2="290" class="onda"/>
+  <line x1="307" y1="277" x2="307" y2="295" class="onda"/>
+  <line x1="314" y1="272" x2="314" y2="300" class="onda"/>
+  <line x1="321" y1="268" x2="321" y2="304" class="onda"/>
+  <line x1="328" y1="273" x2="328" y2="299" class="onda"/>
+  <line x1="335" y1="266" x2="335" y2="306" class="onda"/>
+  <line x1="342" y1="276" x2="342" y2="296" class="onda"/>
+  <line x1="349" y1="271" x2="349" y2="301" class="onda"/>
+  <line x1="356" y1="280" x2="356" y2="292" class="onda"/>
+  <line x1="363" y1="275" x2="363" y2="297" class="onda"/>
+  <line x1="370" y1="282" x2="370" y2="290" class="onda"/>
+
+  <rect x="232" y="258" width="256" height="56" rx="28" class="capsula"/>
+  <circle cx="256" cy="286" r="4" fill="#34e07a"/>
+  <line x1="272" y1="282" x2="272" y2="290" class="onda"/>
+  <line x1="279" y1="277" x2="279" y2="295" class="onda"/>
+  <line x1="286" y1="272" x2="286" y2="300" class="onda"/>
+  <line x1="293" y1="268" x2="293" y2="304" class="onda"/>
+  <line x1="300" y1="273" x2="300" y2="299" class="onda"/>
+  <line x1="307" y1="266" x2="307" y2="306" class="onda"/>
+  <line x1="314" y1="276" x2="314" y2="296" class="onda"/>
+  <line x1="321" y1="271" x2="321" y2="301" class="onda"/>
+  <line x1="328" y1="280" x2="328" y2="292" class="onda"/>
+  <line x1="335" y1="275" x2="335" y2="297" class="onda"/>
+  <line x1="342" y1="282" x2="342" y2="290" class="onda"/>
+
+  <text x="366" y="292" class="capstxt">Escuchando</text>
+
+  <text x="40" y="362" class="rotulo">MIENTRAS MANTIENES</text>
+  <rect x="232" y="336" width="76" height="42" rx="9" class="chip"/>
+  <text x="270" y="363" text-anchor="middle" class="chiptxt">⌥ opt</text>
+  <text x="324" y="363" class="suave">y hablas</text>
+</svg>

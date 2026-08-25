@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400"
+     role="img" aria-label="Seleccionas un texto en español, pulsas el atajo y aparece una ventanita con la traducción al inglés, con las acciones de copiar y sustituir">
+  <style>
+    .lienzo  { fill: #ffffff; }
+    .barra   { fill: #f2f2f0; }
+    .borde   { stroke: #e4e4e0; stroke-width: 1; fill: none; }
+    .panel   { fill: #f7f7f5; }
+    .rotulo  { fill: #8a8a93; font: 500 13px 'Inter Tight', system-ui, sans-serif; letter-spacing: 1.4px; }
+    .suave   { fill: #8a8a93; font: 400 19px 'Inter Tight', system-ui, sans-serif; }
+    .fuerte  { fill: #101014; font: 500 19px 'Inter Tight', system-ui, sans-serif; }
+    .chip    { fill: #ececea; }
+    .chiptxt { fill: #55555e; font: 500 14px 'Inter Tight', system-ui, sans-serif; }
+    .verde   { fill: #16a34a; font: 500 14px 'Inter Tight', system-ui, sans-serif; }
+    .flecha  { stroke: #16a34a; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .tacha   { fill: #c9c9cf; text-decoration: line-through; }
+    .p1 { fill: #ff5f57; } .p2 { fill: #febc2e; } .p3 { fill: #28c840; }
+    .capsula { fill: #16161a; }
+    .onda    { stroke: #34e07a; stroke-width: 3; stroke-linecap: round; }
+    .capstxt { fill: #34e07a; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+    .sel     { fill: #b9d4ff; }
+    @media (prefers-color-scheme: dark) {
+      .lienzo { fill: #151519; } .barra { fill: #1d1d22; }
+      .borde  { stroke: #2a2a32; } .panel { fill: #1b1b21; }
+      .rotulo { fill: #86868f; } .suave { fill: #86868f; }
+      .fuerte { fill: #f0f0f4; } .chip { fill: #26262e; } .chiptxt { fill: #b9b9c2; }
+      .verde  { fill: #4ade80; } .flecha { stroke: #4ade80; }
+      .tacha  { fill: #55555e; } .sel { fill: #24405f; }
+    }
+  </style>
+  <rect x="1" y="1" width="718" height="398" rx="14" class="lienzo"/>
+  <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
+  <circle cx="26" cy="21" r="6" class="p1"/>
+  <circle cx="46" cy="21" r="6" class="p2"/>
+  <circle cx="66" cy="21" r="6" class="p3"/>
+  <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
+  <rect x="1" y="1" width="718" height="398" rx="14" class="borde"/>
+
+  <text x="40" y="82" class="rotulo">SELECCIONAS Y PULSAS EL ATAJO</text>
+  <rect x="52" y="98" width="404" height="28" rx="4" class="sel"/>
+  <text x="54" y="120" class="fuerte">Nos vemos mañana a las tres.</text>
+
+  <rect x="112" y="164" width="496" height="180" rx="16" class="capsula"/>
+  <text x="140" y="202" class="capstxt">Español → Inglés</text>
+  <path d="M262 190h16m0 0-5-5m5 5-5 5M278 198h-16m0 0 5-5m-5 5 5 5" class="flecha"/>
+  <text x="578" y="203" fill="#8a8a93" font-family="'Inter Tight', system-ui" font-size="17">✕</text>
+  <text x="140" y="252" fill="#f2f2f4" font-family="'Inter Tight', system-ui" font-size="19" font-weight="500">See you tomorrow at three.</text>
+  <rect x="332" y="282" width="118" height="40" rx="20" fill="#16351f"/>
+  <text x="391" y="308" text-anchor="middle" class="capstxt">Copiar ⌘C</text>
+  <rect x="462" y="282" width="122" height="40" rx="20" fill="#34e07a"/>
+  <text x="523" y="308" text-anchor="middle" fill="#0b2416" font-family="'Inter Tight', system-ui" font-size="15" font-weight="600">Sustituir ⏎</text>
+
+  <text x="40" y="382" class="rotulo">SE SUSTITUYE EN EL PROPIO CAMPO</text>
+</svg>

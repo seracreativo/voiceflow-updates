@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300"
+     role="img" aria-label="Tres pasos: compras y recibes un correo, vinculas tu cuenta copiando tu huella desde la app y enviándola, y pegas la licencia que recibes. Después aparece sola en tus otros dispositivos por el Llavero de iCloud">
+  <style>
+    .lienzo{fill:#ffffff} .borde{stroke:#e4e4e0;stroke-width:1;fill:none}
+    .paso{fill:#f7f7f5} .num{fill:#e4e4e0}
+    .numtxt{fill:#55555e;font:600 15px 'Inter Tight',system-ui,sans-serif}
+    .titulo{fill:#101014;font:500 17px 'Inter Tight',system-ui,sans-serif}
+    .desc{fill:#8a8a93;font:400 14px 'Inter Tight',system-ui,sans-serif}
+    .flecha{stroke:#c2c2c9;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    .verde{fill:#16a34a;font:500 14px 'Inter Tight',system-ui,sans-serif}
+    .verdetrazo{stroke:#16a34a;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    @media (prefers-color-scheme:dark){
+      .lienzo{fill:#151519} .borde{stroke:#2a2a32} .paso{fill:#1b1b21} .num{fill:#2a2a32}
+      .numtxt{fill:#b9b9c2} .titulo{fill:#f0f0f4} .desc{fill:#86868f}
+      .flecha{stroke:#55555e} .verde{fill:#4ade80} .verdetrazo{stroke:#4ade80}
+    }
+  </style>
+  <rect x="1" y="1" width="718" height="298" rx="14" class="lienzo"/>
+  <rect x="1" y="1" width="718" height="298" rx="14" class="borde"/>
+
+  <rect x="32" y="56" width="196" height="150" rx="13" class="paso"/>
+  <circle cx="62" cy="88" r="15" class="num"/>
+  <text x="62" y="93" text-anchor="middle" class="numtxt">1</text>
+  <text x="54" y="134" class="titulo">Compras</text>
+  <text x="54" y="160" class="desc">Recibes un correo</text>
+  <text x="54" y="180" class="desc">en el momento.</text>
+  <path d="M244 131h24m0 0-7-7m7 7-7 7" class="flecha"/>
+  <rect x="278" y="56" width="196" height="150" rx="13" class="paso"/>
+  <circle cx="308" cy="88" r="15" class="num"/>
+  <text x="308" y="93" text-anchor="middle" class="numtxt">2</text>
+  <text x="300" y="134" class="titulo">Vinculas</text>
+  <text x="300" y="160" class="desc">La app te copia</text>
+  <text x="300" y="180" class="desc">tu cuenta. La envías.</text>
+  <path d="M490 131h24m0 0-7-7m7 7-7 7" class="flecha"/>
+  <rect x="524" y="56" width="196" height="150" rx="13" class="paso"/>
+  <circle cx="554" cy="88" r="15" class="num"/>
+  <text x="554" y="93" text-anchor="middle" class="numtxt">3</text>
+  <text x="546" y="134" class="titulo">Ya está</text>
+  <text x="546" y="160" class="desc">Pegas la licencia</text>
+  <text x="546" y="180" class="desc">y Pro queda activo.</text>
+  <circle cx="52" cy="248" r="12" class="verdetrazo"/>
+  <path d="M46 248l4 4 9-9" class="verdetrazo"/>
+  <text x="76" y="253" class="verde">Y aparece sola en tus otros dispositivos, por el Llavero de iCloud</text>
+</svg>

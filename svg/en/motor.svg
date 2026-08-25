@@ -1,0 +1,38 @@
+<svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420"
+     role="img" aria-label="Por defecto usa el motor de macOS, que no descarga nada. Como alternativa se puede descargar Whisper, que también corre en el Mac: Pequeño 181 MB, Turbo 547 MB y Grande 1 GB, con más precisión a cambio de más peso">
+  <rect x="1" y="1" width="718" height="418" rx="14" class="lienzo"/>
+  <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
+  <circle cx="26" cy="21" r="6" class="p1"/><circle cx="46" cy="21" r="6" class="p2"/><circle cx="66" cy="21" r="6" class="p3"/>
+  <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
+  <rect x="1" y="1" width="718" height="418" rx="14" class="borde"/>
+
+  <text x="40" y="76" class="rotulo">DEFAULT · NOTHING TO DOWNLOAD</text>
+  <text x="666" y="76" class="rotulo" text-anchor="end">ACCURACY</text>
+  <rect x="32" y="90" width="656" height="62" rx="11" class="panelsel"/>
+  <rect x="32" y="90" width="656" height="62" rx="11" class="selborde"/>
+  <text x="54" y="117" class="fuerte">macOS engine</text>
+  <text x="54" y="138" class="dato">Already in the system. Starts instantly.</text>
+  <text x="470" y="117" class="dato" text-anchor="end">0 MB</text>
+  <rect x="490" y="110" width="176" height="7" rx="3.5" class="barrafondo"/>
+  <rect x="490" y="110" width="109" height="7" rx="3.5" class="barrallena"/>
+  <text x="666" y="138" class="azul" text-anchor="end">IN USE</text>
+  <text x="40" y="196" class="rotulo">OPTIONAL · WHISPER, ALSO ON YOUR MAC</text>
+  <rect x="32" y="210" width="656" height="62" rx="11" class="panel"/>
+  <text x="54" y="237" class="fuerte">Small</text>
+  <text x="54" y="258" class="dato">Balanced, and enough for everyday dictation.</text>
+  <text x="470" y="237" class="dato" text-anchor="end">181 MB</text>
+  <rect x="490" y="230" width="176" height="7" rx="3.5" class="barrafondo"/>
+  <rect x="490" y="230" width="123" height="7" rx="3.5" class="barrallena"/>
+  <rect x="32" y="282" width="656" height="62" rx="11" class="panel"/>
+  <text x="54" y="309" class="fuerte">Turbo</text>
+  <text x="54" y="330" class="dato">Nearly as accurate as Large, and far faster.</text>
+  <text x="470" y="309" class="dato" text-anchor="end">547 MB</text>
+  <rect x="490" y="302" width="176" height="7" rx="3.5" class="barrafondo"/>
+  <rect x="490" y="302" width="162" height="7" rx="3.5" class="barrallena"/>
+  <rect x="32" y="354" width="656" height="62" rx="11" class="panel"/>
+  <text x="54" y="381" class="fuerte">Large</text>
+  <text x="54" y="402" class="dato">The most accurate, and the slowest and heaviest.</text>
+  <text x="470" y="381" class="dato" text-anchor="end">1 GB</text>
+  <rect x="490" y="374" width="176" height="7" rx="3.5" class="barrafondo"/>
+  <rect x="490" y="374" width="176" height="7" rx="3.5" class="barrallena"/>
+</svg>

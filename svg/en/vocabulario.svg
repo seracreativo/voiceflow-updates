@@ -1,0 +1,26 @@
+<svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390"
+     width="720" height="390" role="img" aria-label="Tres términos que el motor de voz oye mal y VoiceFlow escribe con la grafía correcta: SwiftUI, Keyva y AppDelegate.swift">
+  <rect x="1" y="1" width="718" height="388" rx="14" class="lienzo"/>
+  <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
+  <circle cx="26" cy="21" r="6" class="p1"/>
+  <circle cx="46" cy="21" r="6" class="p2"/>
+  <circle cx="66" cy="21" r="6" class="p3"/>
+  <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
+  <rect x="1" y="1" width="718" height="388" rx="14" class="borde"/>
+
+  <text x="40" y="82" class="rotulo">WHAT THE SPEECH ENGINE HEARS</text>
+  <text x="348" y="82" class="rotulo">WHAT GETS TYPED</text>
+  <rect x="32" y="100" width="656" height="58" rx="11" class="panel"/>
+  <text x="54" y="136" class="suave">swift you eye</text>
+  <path d="M300 124h22m0 0-7-7m7 7-7 7" class="flecha"/>
+  <text x="348" y="136" class="fuerte">SwiftUI</text>
+  <rect x="32" y="170" width="656" height="58" rx="11" class="panel"/>
+  <text x="54" y="206" class="suave">kay va</text>
+  <path d="M300 194h22m0 0-7-7m7 7-7 7" class="flecha"/>
+  <text x="348" y="206" class="fuerte">Keyva</text>
+  <rect x="32" y="240" width="656" height="58" rx="11" class="panel"/>
+  <text x="54" y="276" class="suave">app delegate dot swift</text>
+  <path d="M300 264h22m0 0-7-7m7 7-7 7" class="flecha"/>
+  <text x="348" y="276" class="fuerte">AppDelegate.swift</text>
+  <text x="40" y="352" class="verde">✓ Handed to the speech engine before transcribing, not after</text>
+</svg>

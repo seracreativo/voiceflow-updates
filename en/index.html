@@ -1,77 +1,68 @@
 <!doctype html>
-<html lang="es">
-<meta charset="utf-8">
-<title>Dictado para Mac sin internet · VoiceFlow</title>
-<link rel="alternate" hreflang="es" href="https://voiceflow.seracreativo.com/">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Offline dictation for Mac · VoiceFlow</title>
+  <meta name="description" content="Dictate into any Mac app with no connection. Hold a key, talk, and the text lands where your cursor is, already cleaned up. Nothing you say leaves your Mac.">
+  <link rel="canonical" href="https://voiceflow.seracreativo.com/en/">
+  <link rel="alternate" hreflang="es" href="https://voiceflow.seracreativo.com/">
   <link rel="alternate" hreflang="en" href="https://voiceflow.seracreativo.com/en/">
   <link rel="alternate" hreflang="x-default" href="https://voiceflow.seracreativo.com/">
-  <link rel="canonical" href="https://voiceflow.seracreativo.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="VoiceFlow">
+  <meta property="og:title" content="You talk, it's written.">
+  <meta property="og:description" content="Voice dictation for Mac. The text lands where your cursor is, already clean. Nothing you say leaves your Mac.">
+  <meta property="og:url" content="https://voiceflow.seracreativo.com/en/">
+  <meta property="og:image" content="https://voiceflow.seracreativo.com/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Dicta en cualquier app de tu Mac sin conexión. Mantienes una tecla, hablas y el texto aparece donde esté el cursor, ya limpio. Nada sale de tu Mac.">
-<link rel="icon" href="/img/icono-64.png">
-<link rel="apple-touch-icon" href="/img/icono.png">
-
-<!-- Tarjeta al compartir el enlace. Sin esto, en WhatsApp, Slack o X sale la URL
-     pelada, que para una página cuyo trabajo es que alguien se descargue la app es
-     tirar la mitad del clic. -->
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="VoiceFlow">
-<meta property="og:title" content="Hablas y aparece escrito.">
-<meta property="og:description" content="Dictado por voz para Mac. El texto entra donde esté el cursor, ya limpio. Nada de lo que dices sale de tu Mac.">
-<meta property="og:url" content="https://voiceflow.seracreativo.com/">
-<meta property="og:image" content="https://voiceflow.seracreativo.com/img/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:locale" content="es_ES">
-  <meta property="og:locale:alternate" content="en_GB">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
-
-<!-- Las fuentes se descubren dentro del CSS, así que sin esto el texto espera a que
-     el navegador termine de leerlo. Solo las dos que se usan en lo primero que se ve. -->
-<link rel="preload" href="/fonts/inter-tight-400-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/inter-tight-500-latin.woff2" as="font" type="font/woff2" crossorigin>
-
-<link rel="stylesheet" href="/_estilo.css">
-
+  <link rel="icon" href="/img/icono-64.png">
+  <link rel="apple-touch-icon" href="/img/icono.png">
+  <link rel="stylesheet" href="/_estilo.css">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
+</head>
+<body>
 <div class="lineas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
 
 <nav>
   <div class="limite">
-    <a class="marca" href="/"><img src="/img/icono-64.png" alt="">VoiceFlow</a>
+    <a class="marca" href="/en/"><img src="/img/icono-64.png" alt="">VoiceFlow</a>
     <div class="enlaces">
-      <a class="nav" href="#que-hace">Qué hace</a>
-      <a class="nav" href="#traductor">Traductor</a>
-      <a class="nav" href="#motor">Motor</a>
-      <a class="nav" href="#precio">Precio</a>
-      <a class="nav" href="#licencia">Licencia</a>
+      <a class="nav" href="#what">What it does</a>
+      <a class="nav" href="#translator">Translator</a>
+      <a class="nav" href="#engine">Engine</a>
+      <a class="nav" href="#pricing">Pricing</a>
+      <a class="nav" href="#licence">Licence</a>
     </div>
     <a class="nav" href="/en/">EN</a>
-      <a class="boton" href="/VoiceFlow.zip" download>Descargar</a>
+      <a class="boton" href="/VoiceFlow.zip" download>Download</a>
   </div>
 </nav>
-
 <header class="hero limite">
-  <img class="icono" src="/img/icono-hero.png" width="180" height="180" alt="Icono de VoiceFlow">
-  <div><span class="pildora">Gratis para empezar · 14 días con todo Pro</span></div>
-  <h1>Hablas y aparece escrito.</h1>
-  <p class="entradilla">Mantienes una tecla, dictas, y el texto entra donde esté el
-  cursor —en Notion, en la terminal, en un correo— ya sin muletillas y con las comas
-  puestas. <strong>Nada de lo que dices sale de tu Mac.</strong></p>
+  <img class="icono" src="/img/icono-hero.png" width="180" height="180" alt="VoiceFlow icon">
+  <div><span class="pildora">Free to start · 14 days with everything in Pro</span></div>
+  <h1>You talk, it's written.</h1>
+  <p class="entradilla">Hold a key, dictate, and the text lands wherever your cursor is
+  —in Notion, in the terminal, in an email— with the filler words gone and the commas
+  in place. <strong>Nothing you say leaves your Mac.</strong></p>
   <div class="acciones">
-    <a class="boton" href="/VoiceFlow.zip" download>Descargar para Mac</a>
-    <a class="boton2" href="#que-hace">Ver qué hace</a>
+    <a class="boton" href="/VoiceFlow.zip" download>Download for Mac</a>
+    <a class="boton2" href="#what">See what it does</a>
   </div>
   <p class="requisitos">
-    Versión <span id="version">1.3.2</span> · 6.5 MB · Intel y Apple&nbsp;Silicon ·
-    requiere macOS&nbsp;26
+    Version <span id="version">1.3.2</span> · 6.5 MB · Intel and Apple&nbsp;Silicon ·
+    requires macOS&nbsp;26
   </p>
 </header>
 
 <div class="limite">
   <div class="marco hud">
-<svg class="grafico" id="indicador" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 150" width="660" height="150"
+      <svg class="grafico" id="indicador" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 150" width="660" height="150"
      role="img" aria-label="El indicador de VoiceFlow recorriendo sus fases: preparando, escuchando con la onda de la voz, puliendo, traduciendo al inglés y escribiendo">
   <style>
     #indicador .capsula{fill:#16161a}
@@ -145,39 +136,36 @@
   <rect class="barra b10" x="236" y="43.0" width="7" height="64" rx="3.5"/>
   <rect class="barra b11" x="250" y="43.0" width="7" height="64" rx="3.5"/>
   <rect class="barra b12" x="264" y="43.0" width="7" height="64" rx="3.5"/>
-  <text class="rotulo t0" x="304" y="84.0">Preparando</text>
-  <text class="rotulo t1" x="304" y="84.0">Escuchando</text>
-  <text class="rotulo t2" x="304" y="84.0">Puliendo</text>
-  <text class="rotulo t3" x="304" y="84.0">Traduciendo</text>
-  <text class="rotulo t4" x="304" y="84.0">Escribiendo</text>
+  <text class="rotulo t0" x="304" y="84.0">Getting ready</text>
+  <text class="rotulo t1" x="304" y="84.0">Listening</text>
+  <text class="rotulo t2" x="304" y="84.0">Polishing</text>
+  <text class="rotulo t3" x="304" y="84.0">Translating</text>
+  <text class="rotulo t4" x="304" y="84.0">Typing</text>
   <g class="idioma">
     <rect class="idiomaCaja" x="544" y="56.0" width="76" height="38" rx="19"/>
-    <text class="idiomaTxt" x="562" y="82.0">→ EN</text>
+    <text class="idiomaTxt" x="562" y="82.0">→ ES</text>
   </g>
 </svg>
   </div>
 </div>
 
-<section class="limite bloque" id="que-hace">
-  <p class="kicker">Qué hace</p>
-  <h2>Dictar rápido no sirve<br>si luego hay que arreglarlo.</h2>
-  <p class="apagado">El dictado del sistema
-  transcribe lo que dices, titubeos incluidos. VoiceFlow entrega texto que ya se puede
-  enviar.</p>
+<section class="limite bloque" id="what">
+  <p class="kicker">What it does</p>
+  <h2>Dictating fast isn't the point<br>if you have to go back over it.</h2>
+  <p class="apagado">Every dictation app writes down what it hears. The work starts
+  after that: taking out the «uh», putting in the commas, and dropping the half-sentence
+  you corrected mid-thought. VoiceFlow does that before the text reaches the screen,
+  and it does it on your Mac.</p>
 </section>
-
-<div class="limite">
   <section class="fila">
     <div class="texto">
-      <p class="kicker">01 · El gesto</p>
-      <h3>Una tecla. Ni ventanas ni botones.</h3>
-      <p class="apagado">Mantienes la tecla mientras hablas y sueltas cuando terminas. El
-      texto aparece donde estaba el cursor, sin copiar ni pegar. Si prefieres no
-      sostenerla, dos pulsaciones la dejan fija.</p>
+      <p class="kicker">01 · The gesture</p>
+      <h3>One key. No windows, no buttons.</h3>
+      <p class="apagado">Hold it down, talk, let go. The text appears where your cursor was, in whatever app you happen to be in — no plugins and no integrations.</p>
       <ul class="checks">
-        <li><strong>Funciona en cualquier app</strong>, no solo en las que se llevan bien</li>
-        <li><strong>Un indicador junto al cursor</strong> te dice que te está oyendo</li>
-        <li><strong>Sin conexión</strong>, igual de rápido</li>
+        <li><strong>Works in any app</strong>, including the terminal</li>
+        <li><strong>Nothing to click</strong>: no windows and no popups</li>
+        <li><strong>Offline</strong>, and just as fast</li>
       </ul>
     </div>
     <div class="media"><div class="marco">
@@ -191,12 +179,12 @@
   <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
   <rect x="1" y="1" width="718" height="398" rx="14" class="borde"/>
 
-  <text x="40" y="82" class="rotulo">EN CUALQUIER APLICACIÓN</text>
+  <text x="40" y="82" class="rotulo">IN ANY APP</text>
 
   <rect x="32" y="100" width="656" height="120" rx="11" class="panel"/>
-  <text x="54" y="140" class="fuerte">Nos vemos mañana a las tres en la oficina.</text>
+  <text x="54" y="140" class="fuerte">See you tomorrow at three at the office.</text>
   <line x1="409" y1="124" x2="409" y2="148" class="cursor"/>
-  <text x="54" y="186" class="suave">El texto entra donde estaba el cursor.</text>
+  <text x="54" y="186" class="suave">The text lands where your cursor was.</text>
 
   <line x1="300" y1="282" x2="300" y2="290" class="onda"/>
   <line x1="307" y1="277" x2="307" y2="295" class="onda"/>
@@ -224,27 +212,24 @@
   <line x1="335" y1="275" x2="335" y2="297" class="onda"/>
   <line x1="342" y1="282" x2="342" y2="290" class="onda"/>
 
-  <text x="366" y="292" class="capstxt">Escuchando</text>
+  <text x="366" y="292" class="capstxt">Listening</text>
 
-  <text x="40" y="362" class="rotulo">MIENTRAS MANTIENES</text>
+  <text x="40" y="362" class="rotulo">WHILE YOU HOLD</text>
   <rect x="232" y="336" width="76" height="42" rx="9" class="chip"/>
   <text x="256" y="363" class="chiptxt">⌥ opt</text>
-  <text x="324" y="363" class="suave">y hablas</text>
+  <text x="324" y="363" class="suave">and talk</text>
 </svg>
     </div></div>
   </section>
-
   <section class="fila derecha">
     <div class="texto">
-      <p class="kicker">02 · Pulido</p>
-      <h3>Tres niveles, y uno distinto por aplicación.</h3>
-      <p class="apagado">En la terminal quieres lo que dijiste, literal. En un correo
-      quieres que se lea bien. VoiceFlow recuerda el nivel que usas en cada app y lo
-      aplica solo.</p>
+      <p class="kicker">02 · Polish</p>
+      <h3>Three levels, and a different one per app.</h3>
+      <p class="apagado">In the terminal you want exactly what you said. In an email you want it to read well. VoiceFlow remembers which level you use in each app and applies it on its own.</p>
       <ul class="checks">
-        <li><strong>Literal</strong> — tal cual, sin tocar nada</li>
-        <li><strong>Limpio</strong> — fuera muletillas, con puntuación y acentos</li>
-        <li><strong>Redactado</strong> — reordena para que se lea de un tirón</li>
+        <li><strong>Verbatim</strong> — as spoken, untouched</li>
+        <li><strong>Clean</strong> — filler words out, punctuation in</li>
+        <li><strong>Polished</strong> — reordered so it reads in one go</li>
       </ul>
     </div>
     <div class="media"><div class="marco">
@@ -258,38 +243,34 @@
   <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
   <rect x="1" y="1" width="718" height="450" rx="14" class="borde"/>
 
-  <text x="40" y="82" class="rotulo">LO QUE DIJISTE</text>
-  <text x="40" y="112" class="suave"><tspan class="tacha">bueno</tspan> movemos la reunión de mañana porque Marta no puede mejor el jueves</text>
+  <text x="40" y="82" class="rotulo">WHAT YOU SAID</text>
+  <text x="40" y="112" class="suave"><tspan class="tacha">so</tspan> let's move tomorrow's meeting Marta can't make it better Thursday</text>
   <path d="M360 130v26m0 0-8-8m8 8 8-8" class="flecha"/>
   <rect x="32" y="174" width="656" height="76" rx="11" class="panel"/>
-  <text x="54" y="204" class="rotulo">LITERAL · TERMINAL Y CÓDIGO</text>
-  <text x="54" y="234" class="suave">movemos la reunión de mañana porque Marta no puede mejor el jueves</text>
+  <text x="54" y="204" class="rotulo">VERBATIM · TERMINAL AND CODE</text>
+  <text x="54" y="234" class="suave">let's move tomorrow's meeting Marta can't make it better Thursday</text>
   <rect x="32" y="262" width="656" height="76" rx="11" class="panel"/>
-  <text x="54" y="292" class="rotulo">LIMPIO · NOTAS Y MENSAJES</text>
-  <text x="54" y="322" class="suave">Movemos la reunión de mañana porque Marta no puede, mejor el jueves.</text>
+  <text x="54" y="292" class="rotulo">CLEAN · NOTES AND MESSAGES</text>
+  <text x="54" y="322" class="suave">Let's move tomorrow's meeting, Marta can't make it, better Thursday.</text>
   <rect x="32" y="350" width="656" height="76" rx="11" class="panel"/>
-  <text x="54" y="380" class="rotulo">REDACTADO · CORREOS</text>
-  <text x="54" y="410" class="fuerte">Movemos la reunión de mañana al jueves: Marta no puede.</text>
+  <text x="54" y="380" class="rotulo">POLISHED · EMAIL</text>
+  <text x="54" y="410" class="fuerte">Moving tomorrow's meeting to Thursday: Marta can't make it.</text>
 </svg>
     </div></div>
   </section>
-
   <section class="fila">
     <div class="texto">
-      <p class="kicker">03 · Rectificaciones</p>
-      <h3>Te corriges hablando y se queda con la buena.</h3>
-      <p class="apagado">Dictar no es escribir: arrancas con «eh», dices una hora y la
-      cambias a media frase. Cuando marcas la corrección, VoiceFlow se queda con la
-      versión buena y tira la anterior —antes de escribir nada, no después.</p>
+      <p class="kicker">03 · Corrections</p>
+      <h3>You correct yourself out loud, it keeps the good one.</h3>
+      <p class="apagado">Talking isn't writing. You stumble, you say a time and change it halfway through. When you mark the correction, VoiceFlow keeps the good version and drops the other — before anything is typed, not after.</p>
       <ul class="checks">
-        <li>«cuarenta euros, <strong>perdón</strong>, cincuenta» — se escribe cincuenta</li>
-        <li>«quedamos el lunes, <strong>no, mejor</strong> el martes» — se escribe el martes</li>
-        <li>«el correo a Ana Belén, <strong>perdón</strong>, a Marta» — se escribe a Marta</li>
-        <li>Dos correcciones en un mismo dictado, cada una en su sitio</li>
+        <li>«forty euros, <strong>sorry</strong>, fifty» — fifty gets typed</li>
+        <li>«Monday, <strong>no, make it</strong> Tuesday» — Tuesday gets typed</li>
+        <li>Two corrections in one dictation, each in its place</li>
       </ul>
     </div>
     <div class="media"><div class="marco">
-<svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400"
+      <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400"
      width="720" height="400" role="img" aria-label="De lo que dices a lo que se escribe: «eh… nos vemos mañana a las dos, no, mejor a las tres» se convierte en «Nos vemos mañana a las tres.»">
   <rect x="1" y="1" width="718" height="398" rx="14" class="lienzo"/>
   <path d="M1 15a14 14 0 0 1 14-14h690a14 14 0 0 1 14 14v26H1z" class="barra"/>
@@ -299,32 +280,25 @@
   <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
   <rect x="1" y="1" width="718" height="398" rx="14" class="borde"/>
 
-  <text x="40" y="90" class="rotulo">LO QUE DICES</text>
+  <text x="40" y="90" class="rotulo">WHAT YOU SAY</text>
   <rect x="32" y="104" width="656" height="86" rx="11" class="panel"/>
-  <text x="52" y="140" class="suave"><tspan class="tacha">eh…</tspan> nos vemos mañana a <tspan class="tacha">las dos,</tspan></text>
-  <text x="52" y="168" class="suave"><tspan class="tacha">no, mejor</tspan> a las tres</text>
+  <text x="52" y="140" class="suave"><tspan class="tacha">uh…</tspan> see you tomorrow at <tspan class="tacha">two,</tspan></text>
+  <text x="52" y="168" class="suave"><tspan class="tacha">no, make it</tspan> three</text>
 
   <path d="M360 208v34m0 0-9-9m9 9 9-9" class="flecha"/>
 
-  <text x="40" y="288" class="rotulo">LO QUE SE ESCRIBE</text>
+  <text x="40" y="288" class="rotulo">WHAT GETS TYPED</text>
   <rect x="32" y="302" width="656" height="62" rx="11" class="panel"/>
-  <text x="52" y="341" class="fuerte">Nos vemos mañana a las tres.</text>
+  <text x="52" y="341" class="fuerte">See you tomorrow at three.</text>
 </svg>
     </div></div>
   </section>
-  <section class="fila derecha" id="traductor">
+  <section class="fila derecha" id="translator">
     <div class="texto">
-      <p class="kicker">04 · Traductor</p>
-      <h3>Selecciona, pulsa, y ya está traducido.</h3>
-      <p class="apagado">Marcas un texto en cualquier aplicación y pulsas el atajo.
-      Aparece una ventanita con la traducción, que puedes copiar o dejar sustituida en el
-      sitio donde estaba, sin salir de lo que hacías.</p>
-      <ul class="checks">
-        <li><strong>Detecta la dirección sola</strong> entre tus dos idiomas</li>
-        <li><strong>Sustituye en el propio campo</strong>, no solo copia</li>
-        <li><strong>También al dictar:</strong> hablas en un idioma y escribe en otro</li>
-        <li><strong>Configurable por aplicación</strong>, como el pulido</li>
-      </ul>
+      <p class="kicker">04 · Translator</p>
+      <h3>Select, press, and it's translated.</h3>
+      <p class="apagado">Select text in any app, press the shortcut, and a small panel shows the translation. Copy it, or replace the original in place.</p>
+      <p class="apagado">It runs on your Mac too: the language pack downloads once and never again.</p>
     </div>
     <div class="media"><div class="marco">
       <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400"
@@ -337,36 +311,33 @@
   <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
   <rect x="1" y="1" width="718" height="398" rx="14" class="borde"/>
 
-  <text x="40" y="82" class="rotulo">SELECCIONAS Y PULSAS EL ATAJO</text>
+  <text x="40" y="82" class="rotulo">SELECT IT AND PRESS THE SHORTCUT</text>
   <rect x="52" y="98" width="404" height="28" rx="4" class="sel"/>
-  <text x="54" y="120" class="fuerte">Nos vemos mañana a las tres.</text>
+  <text x="54" y="120" class="fuerte">See you tomorrow at three.</text>
 
   <rect x="112" y="164" width="496" height="180" rx="16" class="capsula"/>
-  <text x="140" y="202" class="capstxt">Español → Inglés</text>
+  <text x="140" y="202" class="capstxt">Spanish → English</text>
   <path d="M262 190h16m0 0-5-5m5 5-5 5M278 198h-16m0 0 5-5m-5 5 5 5" class="flecha"/>
   <text x="578" y="203" class="capsdebil">✕</text>
   <text x="140" y="252" class="capsfuerte">See you tomorrow at three.</text>
   <rect x="332" y="282" width="118" height="40" rx="20" class="btn2"/>
-  <text x="352" y="308" class="btn2txt">Copiar <tspan class="btn2tecla">⌘C</tspan></text>
+  <text x="352" y="308" class="btn2txt">Copy <tspan class="btn2tecla">⌘C</tspan></text>
   <rect x="462" y="282" width="122" height="40" rx="20" class="btn1"/>
-  <text x="482" y="308" class="btn1txt">Sustituir <tspan class="btn1tecla">⏎</tspan></text>
+  <text x="482" y="308" class="btn1txt">Replace <tspan class="btn1tecla">⏎</tspan></text>
 
-  <text x="40" y="382" class="rotulo">SE SUSTITUYE EN EL PROPIO CAMPO</text>
+  <text x="40" y="382" class="rotulo">IT REPLACES THE TEXT IN PLACE</text>
 </svg>
     </div></div>
   </section>
-
   <section class="fila">
     <div class="texto">
-      <p class="kicker">05 · Tus palabras</p>
-      <h3>Los nombres raros, bien escritos.</h3>
-      <p class="apagado">Nombres propios, siglas, tecnicismos, el apellido de tu cliente.
-      Se los dices una vez y salen siempre con la grafía exacta que tú escribiste, aunque
-      el motor de voz los oiga de otra manera.</p>
+      <p class="kicker">05 · Your words</p>
+      <h3>Odd names, spelled right.</h3>
+      <p class="apagado">Proper nouns, acronyms, jargon, your client's surname. You tell it once and they always come out exactly as you spelled them, however the speech engine hears them.</p>
       <ul class="checks">
-        <li><strong>Se los pasa al motor de voz</strong> antes de transcribir, no después</li>
-        <li><strong>Aprende de tu historial</strong> qué términos usas a menudo</li>
-        <li><strong>25 términos gratis</strong>, sin tope con Pro</li>
+        <li><strong>Handed to the speech engine</strong> before transcribing, not after</li>
+        <li><strong>Unlimited terms</strong> in Pro</li>
+        <li><strong>Synced</strong> across your devices</li>
       </ul>
     </div>
     <div class="media"><div class="marco">
@@ -380,39 +351,30 @@
   <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
   <rect x="1" y="1" width="718" height="388" rx="14" class="borde"/>
 
-  <text x="40" y="82" class="rotulo">LO QUE OYE EL MOTOR DE VOZ</text>
-  <text x="348" y="82" class="rotulo">LO QUE SE ESCRIBE</text>
+  <text x="40" y="82" class="rotulo">WHAT THE SPEECH ENGINE HEARS</text>
+  <text x="348" y="82" class="rotulo">WHAT GETS TYPED</text>
   <rect x="32" y="100" width="656" height="58" rx="11" class="panel"/>
-  <text x="54" y="136" class="suave">swift ui</text>
+  <text x="54" y="136" class="suave">swift you eye</text>
   <path d="M300 124h22m0 0-7-7m7 7-7 7" class="flecha"/>
   <text x="348" y="136" class="fuerte">SwiftUI</text>
   <rect x="32" y="170" width="656" height="58" rx="11" class="panel"/>
-  <text x="54" y="206" class="suave">que iva</text>
+  <text x="54" y="206" class="suave">kay va</text>
   <path d="M300 194h22m0 0-7-7m7 7-7 7" class="flecha"/>
   <text x="348" y="206" class="fuerte">Keyva</text>
   <rect x="32" y="240" width="656" height="58" rx="11" class="panel"/>
-  <text x="54" y="276" class="suave">app delegate punto swift</text>
+  <text x="54" y="276" class="suave">app delegate dot swift</text>
   <path d="M300 264h22m0 0-7-7m7 7-7 7" class="flecha"/>
   <text x="348" y="276" class="fuerte">AppDelegate.swift</text>
-  <text x="40" y="352" class="verde">✓ Se los pasa al motor de voz antes de transcribir, no después</text>
+  <text x="40" y="352" class="verde">✓ Handed to the speech engine before transcribing, not after</text>
 </svg>
     </div></div>
   </section>
-
-  <section class="fila derecha" id="motor">
+  <section class="fila derecha" id="engine">
     <div class="texto">
-      <p class="kicker">06 · El motor</p>
-      <h3>Y si quieres más acierto, se descarga.</h3>
-      <p class="apagado">De serie transcribe con el motor de voz de macOS: ya está en el
-      sistema, no descarga nada y arranca al instante. Si necesitas más precisión puedes
-      activar Whisper, que <strong>también corre en tu Mac</strong> —no cambia nada de lo
-      de arriba: sigue sin salir ni el audio ni el texto—.</p>
-      <ul class="checks">
-        <li><strong>Turbo, 547 MB</strong> — acierta casi como el grande y corre mucho más rápido</li>
-        <li><strong>Se cambia cuando quieras</strong>, y se puede volver al de Apple</li>
-        <li>El modelo pequeño de Whisper <strong>no siempre gana</strong> al de Apple en
-        español: la mejora está en los grandes</li>
-      </ul>
+      <p class="kicker">06 · The engine</p>
+      <h3>And if you want more accuracy, it downloads.</h3>
+      <p class="apagado">By default VoiceFlow uses the speech engine macOS&nbsp;26 already ships with. That's why the download is 6.5&nbsp;MB and it dictates from the first minute: nothing to fetch.</p>
+      <p class="apagado">Whisper is there too, switched off, for anyone who wants it. It raises accuracy and it raises the weight — and it also runs on your Mac.</p>
     </div>
     <div class="media"><div class="marco">
       <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420"
@@ -423,32 +385,32 @@
   <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
   <rect x="1" y="1" width="718" height="418" rx="14" class="borde"/>
 
-  <text x="40" y="76" class="rotulo">POR DEFECTO · NO DESCARGA NADA</text>
-  <text x="666" y="76" class="rotulo" text-anchor="end">ACIERTO EN ESPAÑOL</text>
+  <text x="40" y="76" class="rotulo">DEFAULT · NOTHING TO DOWNLOAD</text>
+  <text x="666" y="76" class="rotulo" text-anchor="end">ACCURACY</text>
   <rect x="32" y="90" width="656" height="62" rx="11" class="panelsel"/>
   <rect x="32" y="90" width="656" height="62" rx="11" class="selborde"/>
-  <text x="54" y="117" class="fuerte">Motor de macOS</text>
-  <text x="54" y="138" class="dato">Ya está en el sistema. Arranca al instante.</text>
+  <text x="54" y="117" class="fuerte">macOS engine</text>
+  <text x="54" y="138" class="dato">Already in the system. Starts instantly.</text>
   <text x="470" y="117" class="dato" text-anchor="end">0 MB</text>
   <rect x="490" y="110" width="176" height="7" rx="3.5" class="barrafondo"/>
   <rect x="490" y="110" width="109" height="7" rx="3.5" class="barrallena"/>
-  <text x="666" y="138" class="azul" text-anchor="end">EN USO</text>
-  <text x="40" y="196" class="rotulo">OPCIONAL · WHISPER, TAMBIÉN EN TU MAC</text>
+  <text x="666" y="138" class="azul" text-anchor="end">IN USE</text>
+  <text x="40" y="196" class="rotulo">OPTIONAL · WHISPER, ALSO ON YOUR MAC</text>
   <rect x="32" y="210" width="656" height="62" rx="11" class="panel"/>
-  <text x="54" y="237" class="fuerte">Pequeño</text>
-  <text x="54" y="258" class="dato">Equilibrado, suficiente para dictado en español.</text>
+  <text x="54" y="237" class="fuerte">Small</text>
+  <text x="54" y="258" class="dato">Balanced, and enough for everyday dictation.</text>
   <text x="470" y="237" class="dato" text-anchor="end">181 MB</text>
   <rect x="490" y="230" width="176" height="7" rx="3.5" class="barrafondo"/>
   <rect x="490" y="230" width="123" height="7" rx="3.5" class="barrallena"/>
   <rect x="32" y="282" width="656" height="62" rx="11" class="panel"/>
   <text x="54" y="309" class="fuerte">Turbo</text>
-  <text x="54" y="330" class="dato">Acierta casi como el grande y corre mucho más rápido.</text>
+  <text x="54" y="330" class="dato">Nearly as accurate as Large, and far faster.</text>
   <text x="470" y="309" class="dato" text-anchor="end">547 MB</text>
   <rect x="490" y="302" width="176" height="7" rx="3.5" class="barrafondo"/>
   <rect x="490" y="302" width="162" height="7" rx="3.5" class="barrallena"/>
   <rect x="32" y="354" width="656" height="62" rx="11" class="panel"/>
-  <text x="54" y="381" class="fuerte">Grande</text>
-  <text x="54" y="402" class="dato">El más preciso, y el que más tarda y más ocupa.</text>
+  <text x="54" y="381" class="fuerte">Large</text>
+  <text x="54" y="402" class="dato">The most accurate, and the slowest and heaviest.</text>
   <text x="470" y="381" class="dato" text-anchor="end">1 GB</text>
   <rect x="490" y="374" width="176" height="7" rx="3.5" class="barrafondo"/>
   <rect x="490" y="374" width="176" height="7" rx="3.5" class="barrallena"/>
@@ -457,78 +419,66 @@
   </section>
 </div>
 
-<section class="limite bloque" id="privacidad">
-  <p class="kicker">Privacidad</p>
-  <h2>No es que no vendamos tus datos.<br>Es que no los tenemos.</h2>
-  <p class="apagado">La transcripción la hace el motor de voz del propio sistema y la
-  limpieza se resuelve con reglas y con el modelo de lenguaje que macOS ya lleva dentro.
-  No hay servidor nuestro por medio: ni el audio ni el texto se envían a ninguna parte, y
-  VoiceFlow funciona igual sin conexión.</p>
-  <p class="apagado">Eso no es una promesa de página web. Es cómo está construida: <strong>no
-  existe el código que enviaría nada</strong>. La app no tiene cuentas ni telemetría: no
-  sabemos cuánta gente la usa, ni qué dicta, ni cuándo. Esta web cuenta visitas —sin
-  cookies y sin identificar a nadie— y por eso no te ha pedido aceptar nada.</p>
-
-  <p class="apagado"><a href="/dictado-sin-internet/">Cómo se dicta en un Mac sin
-  internet</a>, qué funciona sin conexión y qué no. Y en qué se diferencia
-  <a href="/vs/dictado-de-macos/">del dictado que ya trae el Mac</a>,
-  <a href="/vs/wispr-flow/">de Wispr Flow</a> y
-  <a href="/vs/superwhisper/">de Superwhisper</a>.</p>
+<section class="limite bloque" id="privacy">
+  <p class="kicker">Privacy</p>
+  <h2>It's not that we don't sell your data.<br>It's that we don't have it.</h2>
+  <p class="apagado">The transcription is done by the system's own speech engine, and the
+  cleanup by rules and the language model macOS already ships with. There is no server
+  of ours in the middle: neither the audio nor the text is sent anywhere, and VoiceFlow
+  works the same with no connection.</p>
+  <p class="apagado">That isn't a promise on a web page. It's how it's built: <strong>the
+  code that would send anything doesn't exist</strong>. The app has no accounts and no
+  telemetry — we don't know how many people use it, what they dictate, or when. This
+  site counts visits, without cookies and without identifying anyone, which is why it
+  never asked you to accept anything.</p>
+  <p class="apagado"><a href="/dictado-sin-internet/">How dictation works on a Mac with
+  no internet</a>, and how it compares to
+  <a href="/vs/dictado-de-macos/">the dictation macOS already has</a>,
+  <a href="/vs/wispr-flow/">to Wispr Flow</a> and
+  <a href="/vs/superwhisper/">to Superwhisper</a>. <span class="nota">(In Spanish.)</span></p>
 </section>
 
-<section class="limite bloque" id="precio">
-  <p class="kicker">Precio</p>
-  <h2>Gratis, y no caduca.</h2>
-  <p class="apagado">El plan gratuito no es una versión mutilada ni una prueba que se
-  rompe: es uno de los tres niveles de pulido completo, para siempre.</p>
-
+<section class="limite bloque" id="pricing">
+  <p class="kicker">Pricing</p>
+  <h2>Free, and it doesn't expire.</h2>
+  <p class="apagado">The free plan isn't a crippled version or a trial that breaks: it's
+  one of the three polish levels, complete, for good.</p>
   <div class="planes ancho">
     <div class="plan">
-      <h3>Gratuito</h3>
-      <div class="precio"><strong>0 €</strong> <span>para siempre</span></div>
+      <h3>Free</h3>
+      <div class="precio"><strong>€0</strong> <span>forever</span></div>
       <ul class="checks">
-        <li>Dictado completo, sin límite de palabras</li>
-        <li>Limpieza por reglas (nivel Literal)</li>
-        <li>Traductor</li>
-        <li>25 términos propios</li>
-        <li>7 días de historial</li>
+        <li>Full dictation, no word limit</li>
+        <li>Rule-based cleanup (Verbatim level)</li>
+        <li>Translator</li>
+        <li>25 custom terms</li>
+        <li>7 days of history</li>
       </ul>
     </div>
     <div class="plan destacado">
       <h3>VoiceFlow Pro</h3>
-      <div class="precio"><strong>59 €</strong> <span>pago único</span></div>
+      <div class="precio"><strong>€59</strong> <span>once, no subscription</span></div>
       <ul class="checks">
-        <li><strong>Reescribe</strong> lo que dictas, no solo lo limpia</li>
-        <li>Vocabulario propio <strong>sin tope</strong></li>
-        <li>Historial completo</li>
-        <li>Un año de actualizaciones incluido</li>
+        <li>Everything in Free</li>
+        <li><strong>Clean and Polished</strong> levels</li>
+        <li>A level per app, remembered</li>
+        <li>Unlimited custom terms</li>
+        <li>Full history</li>
+        <li>One year of updates, and they keep working after that</li>
       </ul>
-      <p style="margin-top:1.4rem"><a class="boton" href="/comprar">Comprar Pro</a></p>
     </div>
   </div>
-
-  <p class="nota ancho" style="margin-top:1.5rem">Al instalar tienes <strong>14 días con todo
-  Pro</strong>, sin cuenta ni tarjeta. Cuando terminan no se rompe nada ni se borra nada:
-  dejas de ver los extras y sigues dictando. Devoluciones: 30 días, sin preguntas, menos la comisión de la pasarela (unos 2 €), que no se recupera al reembolsar.</p>
 </section>
 
-<div class="limite">
-  <section class="fila" id="licencia">
-    <div class="texto">
-      <p class="kicker">La licencia</p>
-      <h3>Se compra una vez y no llama a casa.</h3>
-      <p class="apagado">La licencia es un documento firmado que se comprueba <strong>en
-      tu propio Mac</strong>, contra una clave que la app lleva dentro. No hay que iniciar
-      sesión en nada y no se consulta ningún servidor, ni al activarla ni después.</p>
-      <ul class="checks">
-        <li><strong>Si desaparecemos, tu copia sigue funcionando</strong> exactamente igual</li>
-        <li>Se guarda en tu Llavero de iCloud y aparece sola en tus otros dispositivos</li>
-        <li>Pasado el año de actualizaciones <strong>no pierdes nada</strong>: Pro sigue
-        siendo tuyo en las versiones que cubría</li>
-      </ul>
-      <p style="margin-top:1.2rem"><a href="/licencia">Cómo funciona la licencia →</a></p>
-    </div>
-    <div class="media"><div class="marco">
+<section class="fila derecha" id="licence">
+  <div class="texto">
+    <p class="kicker">The licence</p>
+    <h3>Bought once, and it doesn't phone home.</h3>
+    <p class="apagado">The licence is tied to your iCloud account, so it works on every
+    device of yours and on nobody else's. It's checked offline: VoiceFlow never asks
+    anyone for permission to run.</p>
+  </div>
+  <div class="media"><div class="marco">
       <svg class="grafico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" width="720" height="430"
      role="img" aria-label="Pegas la licencia una vez, se verifica la firma en tu propio Mac sin conexión ni servidor, y aparece sola en tus otros dispositivos por el Llavero de iCloud">
   <rect x="1" y="1" width="718" height="428" rx="14" class="lienzo"/>
@@ -539,17 +489,17 @@
   <line x1="1" y1="41" x2="719" y2="41" class="borde"/>
   <rect x="1" y="1" width="718" height="428" rx="14" class="borde"/>
 
-  <text x="40" y="82" class="rotulo">LA PEGAS UNA VEZ</text>
+  <text x="40" y="82" class="rotulo">YOU PASTE IT ONCE</text>
   <rect x="32" y="98" width="656" height="52" rx="10" class="panel"/>
-  <text x="52" y="130" class="clave">VF1.eyJ2IjoxLCJlIjoiYW5hQGVqZW1wbG8uY29tIiwicCI6InBybyJ9…</text>
+  <text x="52" y="130" class="clave">VF1.eyJ2IjoxLCJlIjoiYW5hQGV4YW1wbGUuY29tIiwicCI6InBybyJ9…</text>
 
   <path d="M360 166v26m0 0-8-8m8 8 8-8" class="verdetrazo"/>
 
   <rect x="32" y="196" width="656" height="92" rx="12" class="panel"/>
   <circle cx="72" cy="242" r="15" class="verdetrazo"/>
   <path d="M65 242l5 5 10-11" class="verdetrazo"/>
-  <text x="102" y="236" class="fuerte">Firma verificada en este Mac</text>
-  <text x="102" y="260" class="suave">Sin conexión. Sin cuenta. Sin preguntar a nadie.</text>
+  <text x="102" y="236" class="fuerte">Signature verified on this Mac</text>
+  <text x="102" y="260" class="suave">Offline. No account. Nobody asked.</text>
 
   <g id="sinservidor" transform="translate(590,236)">
     <!-- Contorno de nube clásico, dibujado a su tamaño natural y encogido con `scale`.
@@ -560,95 +510,43 @@
             d="M25 60a20 20 0 0 1 0-40 10 10 0 0 1 20-10 15 15 0 0 1 30 10 15 15 0 0 1 0 40z"/>
     </g>
     <line x1="-13" y1="4" x2="13" y2="-14" class="tachaln"/>
-    <text id="rotnube" x="0" y="30" text-anchor="middle" class="suave" style="font-size:13px">ningún servidor</text>
+    <text id="rotnube" x="0" y="30" text-anchor="middle" class="suave" style="font-size:13px">no server</text>
   </g>
 
-  <text x="40" y="322" class="rotulo">Y APARECE EN TUS OTROS DISPOSITIVOS</text>
+  <text x="40" y="322" class="rotulo">AND IT APPEARS ON YOUR OTHER DEVICES</text>
   <g transform="translate(92,336) scale(0.72)"><rect x="0" y="0" width="86" height="56" rx="6" class="disp"/><rect x="0" y="0" width="86" height="56" rx="6" class="dispborde"/><path d="M-10 62h106a6 6 0 0 1-6 6H-4a6 6 0 0 1-6-6z" class="disp"/><path d="M-10 62h106a6 6 0 0 1-6 6H-4a6 6 0 0 1-6-6z" class="dispborde"/></g>
   <g transform="translate(214,334) scale(0.72)"><rect x="0" y="0" width="52" height="70" rx="7" class="disp"/><rect x="0" y="0" width="52" height="70" rx="7" class="dispborde"/></g>
   <g transform="translate(300,336) scale(0.72)"><rect x="0" y="0" width="34" height="62" rx="7" class="disp"/><rect x="0" y="0" width="34" height="62" rx="7" class="dispborde"/></g>
   <path d="M170 366h34M258 366h32" class="gristrazo"/>
-  <text x="368" y="360" class="verde">✓ Por el Llavero de iCloud</text>
-  <text x="368" y="384" class="suave" style="font-size:15px">Se compra una vez, no una por aparato.</text>
+  <text x="368" y="360" class="verde">✓ Through the iCloud Keychain</text>
+  <text x="368" y="384" class="suave" style="font-size:15px">Bought once, not once per machine.</text>
 </svg>
-    </div></div>
-  </section>
-</div>
-
-<section class="limite bloque">
-  <p class="kicker">Antes de empezar</p>
-  <h2>La primera vez que la abras.</h2>
-  <p class="apagado">VoiceFlow te va a pedir dos permisos, y conviene saber para qué antes
-  de concederlos:</p>
-  <ul class="checks">
-    <li><strong>Micrófono</strong>, para oír lo que dictas. Evidente, pero ahí está.</li>
-    <li><strong>Accesibilidad</strong>, que suena peor de lo que es: es la única forma que
-    da macOS de escribir texto en otra aplicación. Sin ese permiso VoiceFlow transcribe
-    pero no puede dejar el texto en ningún sitio.</li>
-  </ul>
-  <p class="nota" style="margin-top:1.4rem">La app va firmada con Developer ID y
-  notarizada por Apple, así que se abre sin avisos ni rodeos. Se actualiza sola desde
-  aquí, y cada actualización va firmada: si la firma no es la nuestra, tu copia la
-  rechaza.</p>
-
-  <p style="margin-top:2rem"><a class="boton" href="/VoiceFlow.zip" download>Descargar
-  VoiceFlow</a></p>
+  </div></div>
 </section>
 
+<section class="limite bloque">
+  <p class="kicker">Before you start</p>
+  <h2>The first time you open it.</h2>
+  <p class="apagado">macOS will ask for two permissions, and it's worth knowing why:
+  the <strong>microphone</strong>, so it can hear you, and <strong>Accessibility</strong>,
+  which is the only way macOS lets an app type inside another one. It doesn't ask for
+  screen recording, and it never will.</p>
+  <div class="acciones">
+    <a class="boton" href="/VoiceFlow.zip" download>Download for Mac</a>
+    <a class="boton2" href="/">Ver en español</a>
+  </div>
+  <p class="requisitos">Version 1.3.2 · 6.5 MB · Intel and Apple&nbsp;Silicon ·
+  requires macOS&nbsp;26</p>
+</section>
 <footer>
   <div class="limite">
-    <p><a href="/comprar">Comprar Pro</a> · <a href="/licencia">La licencia</a></p>
-    <p class="nota">Hecho en España. La app no lleva cuentas ni telemetría: lo que dictas no sale de tu Mac.</p>
+    <p><a href="/comprar/">Buy Pro</a> · <a href="/licencia/">The licence</a></p>
+    <p class="nota">Made in Spain. The app has no accounts and no telemetry: what you dictate never leaves your Mac.</p>
   </div>
 </footer>
 
-<!-- Cloudflare Web Analytics: cuenta visitas del sitio sin cookies y sin huella del
-     visitante, así que no hay nada que consentir y no lleva banner. No tiene relación
-     con la app: lo que se dicta sigue sin salir del Mac. -->
+<!-- Cloudflare Web Analytics: counts visits with no cookies and no fingerprinting, so
+     there is nothing to consent to and no banner. Unrelated to the app: what you
+     dictate still never leaves the Mac. -->
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon='{"token": "0e7438bd038744daa928f862cc8375f4"}'></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "VoiceFlow",
-  "applicationCategory": "UtilitiesApplication",
-  "operatingSystem": "macOS 26",
-  "softwareVersion": "1.3.2",
-  "url": "https://voiceflow.seracreativo.com/",
-  "downloadUrl": "https://voiceflow.seracreativo.com/VoiceFlow-1.3.2.zip",
-  "installUrl": "https://voiceflow.seracreativo.com/",
-  "screenshot": "https://voiceflow.seracreativo.com/img/og.png",
-  "inLanguage": "es-ES",
-  "description": "Dictado por voz para Mac. Mantienes una tecla, hablas, y el texto aparece donde esté el cursor, ya sin muletillas y con la puntuación puesta. La transcripción ocurre en el propio Mac: ni el audio ni el texto salen del dispositivo.",
-  "featureList": [
-    "Dictado en cualquier aplicación, donde esté el cursor",
-    "Tres niveles de pulido, uno por aplicación",
-    "Rectificaciones habladas",
-    "Traducción de lo seleccionado",
-    "Vocabulario propio para nombres y tecnicismos",
-    "Funciona sin conexión"
-  ],
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "Gratuito",
-      "price": "0",
-      "priceCurrency": "EUR"
-    },
-    {
-      "@type": "Offer",
-      "name": "VoiceFlow Pro",
-      "price": "59",
-      "priceCurrency": "EUR",
-      "url": "https://voiceflow.seracreativo.com/comprar/",
-      "description": "Pago único, sin suscripción"
-    }
-  ],
-  "author": {
-    "@type": "Organization",
-    "name": "Sera Creativo",
-    "url": "https://seracreativo.com"
-  }
-}
-</script>

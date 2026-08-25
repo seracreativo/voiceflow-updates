@@ -3,6 +3,17 @@
     <channel>
         <title>voiceflow</title>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Tue, 25 Aug 2026 22:07:34 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.2.0.zip" length="6813275" type="application/octet-stream" sparkle:edSignature="8Ce9IT5+2vkZJxguhfapHUGafDz8vvja9fJXkvPXLaHbaF1iwHippxXIIBl6FPaq+JKg/RHBubcTz4A1o2vvDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow4-2.delta" sparkle:deltaFrom="2" length="317870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c1D8UWMfeDAbAyJCrGrSCc+iTv0KKnOZ5mLzGCNIy1GFGfeZr7wF7+zKpd0MwNvMtdZsX1mM+g1y2YZKruYhCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Tue, 25 Aug 2026 03:02:15 +0200</pubDate>
             <sparkle:version>2</sparkle:version>

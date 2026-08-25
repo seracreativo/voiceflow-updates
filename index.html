@@ -3,74 +3,239 @@
 <meta charset="utf-8">
 <title>VoiceFlow · Dictado por voz para Mac</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Dictado por voz para macOS. Mantienes una tecla, hablas, y el texto aparece donde esté el cursor, ya limpio. Todo ocurre en tu Mac.">
+<meta name="description" content="Dictado por voz para macOS. Mantienes una tecla, hablas, y el texto aparece donde esté el cursor, ya limpio. Todo ocurre en tu Mac: ni el audio ni el texto salen del dispositivo.">
+<link rel="icon" href="/img/icono.png">
 <link rel="stylesheet" href="/_estilo.css">
 
-<header class="hero">
+<nav>
+  <div class="limite">
+    <a class="marca" href="/"><img src="/img/icono.png" alt="">VoiceFlow</a>
+    <div class="enlaces">
+      <a class="nav" href="#que-hace">Qué hace</a>
+      <a class="nav" href="#traductor">Traductor</a>
+      <a class="nav" href="#precio">Precio</a>
+      <a class="nav" href="#licencia">Licencia</a>
+    </div>
+    <a class="boton" href="/VoiceFlow.zip" download>Descargar</a>
+  </div>
+</nav>
+
+<header class="hero limite">
+  <span class="pildora">Gratis para empezar · 14 días con todo Pro</span>
+  <img class="icono" src="/img/icono.png" alt="Icono de VoiceFlow">
   <h1>Hablas y aparece escrito.</h1>
-  <p class="entradilla">Mantienes una tecla, dictas, y el texto entra donde esté el cursor
-  —en Notion, en la terminal, en un correo— ya sin muletillas y con las comas puestas.
-  <strong>Nada de lo que dices sale de tu Mac.</strong></p>
-
-  <picture>
-    <source srcset="/hud-oscuro.png" media="(prefers-color-scheme: dark)">
-    <img src="/hud-claro.png" alt="El indicador de VoiceFlow mientras escucha, mostrando la onda de la voz" class="hud">
-  </picture>
-
-  <p class="descarga">
+  <p class="entradilla">Mantienes una tecla, dictas, y el texto entra donde esté el
+  cursor —en Notion, en la terminal, en un correo— ya sin muletillas y con las comas
+  puestas. <strong>Nada de lo que dices sale de tu Mac.</strong></p>
+  <div class="acciones">
     <a class="boton" href="/VoiceFlow.zip" download>Descargar para Mac</a>
-  </p>
-  <p class="nota requisitos">
-    Versión <span id="version">1.1.0</span> · 6,5 MB · Intel y Apple&nbsp;Silicon<br>
-    <strong>Requiere macOS 26 o posterior.</strong>
+    <a class="boton2" href="#que-hace">Ver qué hace</a>
+  </div>
+  <p class="requisitos">
+    Versión <span id="version">1.1.0</span> · 6,5 MB · Intel y Apple&nbsp;Silicon ·
+    requiere macOS&nbsp;26
   </p>
 </header>
 
-<h2>Por qué no sale nada de tu Mac</h2>
-<p>La transcripción la hace el motor de voz del propio sistema y la limpieza del texto se
-resuelve con reglas y con el modelo de lenguaje que macOS ya lleva dentro. No hay servidor
-nuestro por medio: ni el audio ni el texto se envían a ninguna parte, y VoiceFlow funciona
-igual sin conexión.</p>
-<p>Eso no es una promesa de página web, es cómo está construida: no existe el código que
-enviaría nada.</p>
-
-<h2>Se adapta a dónde estás escribiendo</h2>
-<ul>
-  <li><strong>Tres niveles de pulido.</strong> Literal deja lo que dijiste tal cual;
-  Limpio quita muletillas y puntúa; Redactado reordena para que se lea bien.</li>
-  <li><strong>Un nivel distinto por aplicación.</strong> En la terminal interesa lo
-  literal; en un correo, lo redactado. Se recuerda por app.</li>
-  <li><strong>Tus palabras raras, bien escritas.</strong> Nombres propios, siglas y
-  tecnicismos que quieras que salgan siempre igual.</li>
-  <li><strong>Rectificaciones habladas.</strong> Si dices «el total son cuarenta euros,
-  perdón, cincuenta», se queda con cincuenta.</li>
-  <li><strong>Traducción al vuelo.</strong> Seleccionas un texto, pulsas el atajo y
-  aparece traducido, listo para sustituirlo o copiarlo.</li>
-</ul>
-
-<h2>Gratis, y no caduca</h2>
-<div class="caja">
-  <p><strong>El plan gratuito es permanente</strong> y no es una versión mutilada: dictado
-  completo, limpieza por reglas, 25 términos propios y una semana de historial. Al
-  instalar tienes además <strong>14 días con todo Pro</strong>, sin cuenta ni tarjeta.</p>
-  <p class="nota">Cuando terminan los 14 días no se rompe nada ni se borra nada: dejas de
-  ver los extras y sigues dictando.</p>
-  <p><a href="/comprar">Qué añade VoiceFlow Pro — 59 €, pago único</a></p>
+<div class="limite">
+  <div class="marco hud">
+    <picture>
+      <source srcset="/img/hud-oscuro.png" media="(prefers-color-scheme: dark)">
+      <img src="/img/hud-claro.png" alt="El indicador de VoiceFlow mientras escucha, con la onda de la voz en movimiento">
+    </picture>
+  </div>
 </div>
 
-<h2>La primera vez que la abras</h2>
-<p>VoiceFlow te va a pedir dos permisos, y conviene saber para qué antes de concederlos:</p>
-<ul>
-  <li><strong>Micrófono</strong>, para oír lo que dictas. Evidente, pero ahí está.</li>
-  <li><strong>Accesibilidad</strong>, que suena peor de lo que es: es la única forma que da
-  macOS de escribir texto en otra aplicación. Sin ese permiso VoiceFlow transcribe pero no
-  puede dejar el texto en ningún sitio.</li>
-</ul>
-<p class="nota">La app va firmada con Developer ID y notarizada por Apple, así que se abre
-sin avisos ni rodeos. Se actualiza sola desde aquí, y cada actualización va firmada: si la
-firma no es la nuestra, tu copia la rechaza.</p>
+<section class="limite" id="que-hace">
+  <p class="kicker">Qué hace</p>
+  <h2>Dictar rápido no sirve<br>si luego hay que arreglarlo.</h2>
+  <p class="entradilla" style="margin-left:0;text-align:left">El dictado del sistema
+  transcribe lo que dices, titubeos incluidos. VoiceFlow entrega texto que ya se puede
+  enviar.</p>
+</section>
+
+<div class="limite">
+  <div class="duo">
+    <div class="texto">
+      <p class="kicker">01 · El gesto</p>
+      <h3>Una tecla. Ni ventanas ni botones.</h3>
+      <p class="apagado">Mantienes la tecla mientras hablas y sueltas cuando terminas. El
+      texto aparece donde estaba el cursor, sin copiar ni pegar. Si prefieres no
+      sostenerla, dos pulsaciones la dejan fija.</p>
+      <ul class="checks">
+        <li><strong>Funciona en cualquier app</strong>, no solo en las que se llevan bien</li>
+        <li><strong>Un indicador junto al cursor</strong> te dice que te está oyendo</li>
+        <li><strong>Sin conexión</strong>, igual de rápido</li>
+      </ul>
+    </div>
+    <div class="marco recorte">
+      <picture>
+        <source srcset="/img/dictado-oscuro.png" media="(prefers-color-scheme: dark)">
+        <img src="/img/dictado-claro.png" alt="Pantalla de dictado de VoiceFlow" loading="lazy">
+      </picture>
+    </div>
+  </div>
+
+  <div class="duo invertido">
+    <div class="texto">
+      <p class="kicker">02 · Pulido</p>
+      <h3>Tres niveles, y uno distinto por aplicación.</h3>
+      <p class="apagado">En la terminal quieres lo que dijiste, literal. En un correo
+      quieres que se lea bien. VoiceFlow recuerda el nivel que usas en cada app y lo
+      aplica solo.</p>
+      <ul class="checks">
+        <li><strong>Literal</strong> — tal cual, sin tocar nada</li>
+        <li><strong>Limpio</strong> — fuera muletillas, con puntuación y acentos</li>
+        <li><strong>Redactado</strong> — reordena para que se lea de un tirón</li>
+        <li><strong>Rectificaciones habladas:</strong> «cuarenta euros, perdón, cincuenta»
+        se queda con cincuenta</li>
+      </ul>
+    </div>
+    <div class="marco recorte">
+      <picture>
+        <source srcset="/img/ajustes-oscuro.png" media="(prefers-color-scheme: dark)">
+        <img src="/img/ajustes-claro.png" alt="Ajustes de VoiceFlow con los niveles de pulido" loading="lazy">
+      </picture>
+    </div>
+  </div>
+
+  <div class="duo" id="traductor">
+    <div class="texto">
+      <p class="kicker">03 · Traductor</p>
+      <h3>Selecciona, pulsa, y ya está traducido.</h3>
+      <p class="apagado">Marcas un texto en cualquier aplicación y pulsas el atajo.
+      Aparece una ventanita con la traducción, que puedes copiar o dejar sustituida en el
+      sitio donde estaba, sin salir de lo que hacías.</p>
+      <ul class="checks">
+        <li><strong>Detecta la dirección sola</strong> entre tus dos idiomas</li>
+        <li><strong>Sustituye en el propio campo</strong>, no solo copia</li>
+        <li><strong>También al dictar:</strong> hablas en un idioma y escribe en otro</li>
+        <li><strong>Configurable por aplicación</strong>, como el pulido</li>
+      </ul>
+    </div>
+    <div class="marco">
+      <img src="/img/traductor.png" alt="La ventanita de traducción de VoiceFlow, con las acciones de copiar y sustituir" loading="lazy">
+    </div>
+  </div>
+
+  <div class="duo invertido">
+    <div class="texto">
+      <p class="kicker">04 · Tus palabras</p>
+      <h3>Los nombres raros, bien escritos.</h3>
+      <p class="apagado">Nombres propios, siglas, tecnicismos, el apellido de tu cliente.
+      Se los dices una vez y salen siempre con la grafía exacta que tú escribiste, aunque
+      el motor de voz los oiga de otra manera.</p>
+      <ul class="checks">
+        <li><strong>Se los pasa al motor de voz</strong> antes de transcribir, no después</li>
+        <li><strong>Aprende de tu historial</strong> qué términos usas a menudo</li>
+        <li><strong>25 términos gratis</strong>, sin tope con Pro</li>
+      </ul>
+    </div>
+    <div class="marco recorte">
+      <picture>
+        <source srcset="/img/vocabulario-oscuro.png" media="(prefers-color-scheme: dark)">
+        <img src="/img/vocabulario-claro.png" alt="Pantalla de vocabulario propio de VoiceFlow" loading="lazy">
+      </picture>
+    </div>
+  </div>
+</div>
+
+<section class="limite" id="privacidad">
+  <p class="kicker">Privacidad</p>
+  <h2>No es que no vendamos tus datos.<br>Es que no los tenemos.</h2>
+  <p class="apagado">La transcripción la hace el motor de voz del propio sistema y la
+  limpieza se resuelve con reglas y con el modelo de lenguaje que macOS ya lleva dentro.
+  No hay servidor nuestro por medio: ni el audio ni el texto se envían a ninguna parte, y
+  VoiceFlow funciona igual sin conexión.</p>
+  <p class="apagado">Eso no es una promesa de página web. Es cómo está construida: <strong>no
+  existe el código que enviaría nada</strong>. Tampoco hay cuentas, ni analítica, ni
+  telemetría — no sabemos siquiera cuánta gente la usa.</p>
+</section>
+
+<section class="limite" id="precio">
+  <p class="kicker">Precio</p>
+  <h2>Gratis, y no caduca.</h2>
+  <p class="apagado">El plan gratuito no es una versión mutilada ni una prueba que se
+  rompe: es uno de los tres niveles de pulido completo, para siempre.</p>
+
+  <div class="planes">
+    <div class="plan">
+      <h3>Gratuito</h3>
+      <div class="precio"><strong>0 €</strong> <span>para siempre</span></div>
+      <ul class="checks">
+        <li>Dictado completo, sin límite de palabras</li>
+        <li>Limpieza por reglas (nivel Literal)</li>
+        <li>Traductor</li>
+        <li>25 términos propios</li>
+        <li>7 días de historial</li>
+      </ul>
+    </div>
+    <div class="plan destacado">
+      <h3>VoiceFlow Pro</h3>
+      <div class="precio"><strong>59 €</strong> <span>pago único</span></div>
+      <ul class="checks">
+        <li><strong>Reescribe</strong> lo que dictas, no solo lo limpia</li>
+        <li>Vocabulario propio <strong>sin tope</strong></li>
+        <li>Historial completo</li>
+        <li>Un año de actualizaciones incluido</li>
+      </ul>
+      <p style="margin-top:1.4rem"><a class="boton" href="/comprar">Comprar Pro</a></p>
+    </div>
+  </div>
+
+  <p class="nota" style="margin-top:1.5rem">Al instalar tienes <strong>14 días con todo
+  Pro</strong>, sin cuenta ni tarjeta. Cuando terminan no se rompe nada ni se borra nada:
+  dejas de ver los extras y sigues dictando. Devoluciones: 30 días, sin preguntas.</p>
+</section>
+
+<div class="limite">
+  <div class="duo" id="licencia">
+    <div class="texto">
+      <p class="kicker">La licencia</p>
+      <h3>Se compra una vez y no llama a casa.</h3>
+      <p class="apagado">La licencia es un documento firmado que se comprueba <strong>en
+      tu propio Mac</strong>, contra una clave que la app lleva dentro. No hay que iniciar
+      sesión en nada y no se consulta ningún servidor, ni al activarla ni después.</p>
+      <ul class="checks">
+        <li><strong>Si desaparecemos, tu copia sigue funcionando</strong> exactamente igual</li>
+        <li>Se guarda en tu Llavero de iCloud y aparece sola en tus otros dispositivos</li>
+        <li>Pasado el año de actualizaciones <strong>no pierdes nada</strong>: Pro sigue
+        siendo tuyo en las versiones que cubría</li>
+      </ul>
+      <p style="margin-top:1.2rem"><a href="/licencia">Cómo funciona la licencia →</a></p>
+    </div>
+    <div class="marco recorte">
+      <picture>
+        <source srcset="/img/licencia-oscuro.png" media="(prefers-color-scheme: dark)">
+        <img src="/img/licencia-claro.png" alt="Pantalla de licencia de VoiceFlow" loading="lazy">
+      </picture>
+    </div>
+  </div>
+</div>
+
+<section class="limite">
+  <p class="kicker">Antes de empezar</p>
+  <h2>La primera vez que la abras.</h2>
+  <p class="apagado">VoiceFlow te va a pedir dos permisos, y conviene saber para qué antes
+  de concederlos:</p>
+  <ul class="checks">
+    <li><strong>Micrófono</strong>, para oír lo que dictas. Evidente, pero ahí está.</li>
+    <li><strong>Accesibilidad</strong>, que suena peor de lo que es: es la única forma que
+    da macOS de escribir texto en otra aplicación. Sin ese permiso VoiceFlow transcribe
+    pero no puede dejar el texto en ningún sitio.</li>
+  </ul>
+  <p class="nota" style="margin-top:1.4rem">La app va firmada con Developer ID y
+  notarizada por Apple, así que se abre sin avisos ni rodeos. Se actualiza sola desde
+  aquí, y cada actualización va firmada: si la firma no es la nuestra, tu copia la
+  rechaza.</p>
+
+  <p style="margin-top:2rem"><a class="boton" href="/VoiceFlow.zip" download>Descargar
+  VoiceFlow</a></p>
+</section>
 
 <footer>
-  <p><a href="/comprar">Comprar Pro</a> · <a href="/licencia">Cómo funciona la licencia</a></p>
-  <p class="nota">Hecho en España. Sin cuentas, sin analítica y sin telemetría.</p>
+  <div class="limite">
+    <p><a href="/comprar">Comprar Pro</a> · <a href="/licencia">La licencia</a></p>
+    <p class="nota">Hecho en España. Sin cuentas, sin analítica y sin telemetría.</p>
+  </div>
 </footer>

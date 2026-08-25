@@ -3,6 +3,20 @@
     <channel>
         <title>voiceflow</title>
         <item>
+            <title>1.3.1</title>
+            <pubDate>Tue, 25 Aug 2026 23:04:10 +0200</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.3.1.zip" length="6844424" type="application/octet-stream" sparkle:edSignature="1yeP3dpz2h+0Z3IUDrfVSx456+UUvZUu7nvJ+F0ETJVJ/X8evcnbj+UU8RVvjXRCP7uwUEDrFkEzy5QtEgH2Bw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow8-6.delta" sparkle:deltaFrom="6" length="261126" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="qi3MHLBivStNTnoxYqXXVpZhkTYsn0zWS7dRoHtdUhwVUlrLmqa5T6uiVTp5q07yubfpd3VVpM7uPSindvQ2BA=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow8-5.delta" sparkle:deltaFrom="5" length="346170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dSo7kx5dg+z5Rj7pbTTqy6/zz7kfB4SBWa6jCfz3xmQikmcdozRobJVlECJoZasJWxP8t9I2oUrYZoXhw1n8BA=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow8-4.delta" sparkle:deltaFrom="4" length="385814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rnXkEqUzSVwFnweXACcwdCv+vLmrnV73J8mmf6+opGPTRLpDWCF7zifkrDxuobW80weOXts2D6V2a84wvDubCw=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow8-2.delta" sparkle:deltaFrom="2" length="430298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IRil0qJn2jB1H6jUc9cI+zcJWiXEV64TaC3TVzqBuhon6StIdv76jPuhBhBzAxOFydiqdufeOxKMkRM/2xzfAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.0</title>
             <pubDate>Tue, 25 Aug 2026 22:45:06 +0200</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -25,17 +39,6 @@
             <sparkle:deltas>
                 <enclosure url="https://voiceflow.seracreativo.com/voiceflow5-4.delta" sparkle:deltaFrom="4" length="283494" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O7U5pGY3ycCJ8iZV05cBC2akQrHPvEUe+sOC/Jk2sbjZzHcDlUVRBXgMmsnu9LuWnpmEm+stmxbIdRBKbk1BDg=="/>
                 <enclosure url="https://voiceflow.seracreativo.com/voiceflow5-2.delta" sparkle:deltaFrom="2" length="369298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="J+tcOq8r3i7Tw/yeno7inwysycReOYawvfXxbxM91Mt63htB7ddmYAJjiifvdA7d8If4o90HDgE5pYiath5eBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.2.0</title>
-            <pubDate>Tue, 25 Aug 2026 22:07:34 +0200</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.2.0.zip" length="6813275" type="application/octet-stream" sparkle:edSignature="8Ce9IT5+2vkZJxguhfapHUGafDz8vvja9fJXkvPXLaHbaF1iwHippxXIIBl6FPaq+JKg/RHBubcTz4A1o2vvDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://voiceflow.seracreativo.com/voiceflow4-2.delta" sparkle:deltaFrom="2" length="317870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c1D8UWMfeDAbAyJCrGrSCc+iTv0KKnOZ5mLzGCNIy1GFGfeZr7wF7+zKpd0MwNvMtdZsX1mM+g1y2YZKruYhCA=="/>
             </sparkle:deltas>
         </item>
     </channel>

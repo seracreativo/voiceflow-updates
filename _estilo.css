@@ -274,10 +274,26 @@ footer p { margin-bottom: .5rem; }
 /* Los semáforos de la ventana no cambian con el tema: son los del sistema. */
 .grafico .p1 { fill: #ff5f57; } .grafico .p2 { fill: #febc2e; } .grafico .p3 { fill: #28c840; }
 /* El indicador es oscuro siempre, como en la app. */
-.grafico .capsula { fill: #16161a; }
-.grafico .capstxt { fill: #34e07a; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
-.grafico .onda    { stroke: #34e07a; stroke-width: 3; stroke-linecap: round; }
 .grafico .paso    { fill: var(--caja); }
 /* El cursor de texto: va pegado al final de la frase, que es donde
    estaría de verdad. */
 .grafico .cursor  { stroke: var(--acento); stroke-width: 2; }
+
+/* El panel flotante de VoiceFlow es siempre oscuro —imita una terminal— así que todo
+   lo que va dentro lleva color fijo. Si tomara el del tema, en modo claro el texto se
+   volvería oscuro sobre fondo oscuro y desaparecería, que es lo que pasaba con la
+   traducción. Los valores salen de DictationHUD, no del ojo: fondo 0.05/0.05/0.055 y
+   fósforo 0.21/1/0.43, con las mismas opacidades que usa TranslationCard. */
+.grafico .capsula    { fill: #0d0d0e; }
+.grafico .capsfuerte { fill: #f0f0f0; font: 500 19px 'Inter Tight', system-ui, sans-serif; }
+.grafico .capsdebil  { fill: #9e9e9e; font: 400 17px 'Inter Tight', system-ui, sans-serif; }
+.grafico .capstxt    { fill: #36ff6e; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+.grafico .onda       { stroke: #36ff6e; stroke-width: 3; stroke-linecap: round; }
+/* Los dos botones pesan lo mismo en la app: solo cambian de color, no de grosor. */
+.grafico .btn2       { fill: #122f1b; }
+.grafico .btn2txt    { fill: #2fdb5f; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+.grafico .btn2tecla  { fill: #21863e; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+.grafico .btn1       { fill: #36ff6e; }
+.grafico .btn1txt    { fill: #0d0d0e; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+.grafico .btn1tecla  { fill: #1f7a39; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
+

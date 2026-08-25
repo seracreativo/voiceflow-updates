@@ -227,6 +227,10 @@ ul.pegas li strong { color: var(--tinta); font-weight: 600; }
 .plan { background: var(--caja); border: 1px solid var(--linea);
         border-radius: 1.2rem; padding: 1.8rem; }
 .plan.destacado { border-color: var(--acento); }
+
+/* El resultado bueno dentro de una comparación. Va en color y en negrita: el color
+   solo no serviría para quien no lo distingue. */
+span.destacado { color: var(--check); font-weight: 600; }
 .precio { display: flex; align-items: baseline; gap: .5rem; margin: .3rem 0 1.2rem; }
 .precio strong { font-size: 2.2rem; letter-spacing: -.03em; }
 .precio span { color: var(--suave); font-size: .95rem; }

@@ -9,15 +9,15 @@
   <rect x="1" y="1" width="718" height="450" rx="14" class="borde"/>
 
   <text x="40" y="82" class="rotulo">LO QUE DIJISTE</text>
-  <text x="40" y="112" class="suave"><tspan class="tacha">bueno</tspan> mándale el informe a marta el jueves</text>
+  <text x="40" y="112" class="suave"><tspan class="tacha">bueno</tspan> movemos la reunión de mañana porque Marta no puede mejor el jueves</text>
   <path d="M360 130v26m0 0-8-8m8 8 8-8" class="flecha"/>
   <rect x="32" y="174" width="656" height="76" rx="11" class="panel"/>
   <text x="54" y="204" class="rotulo">LITERAL · TERMINAL Y CÓDIGO</text>
-  <text x="54" y="234" class="suave">bueno mándale el informe a marta el jueves</text>
+  <text x="54" y="234" class="suave">movemos la reunión de mañana porque Marta no puede mejor el jueves</text>
   <rect x="32" y="262" width="656" height="76" rx="11" class="panel"/>
   <text x="54" y="292" class="rotulo">LIMPIO · NOTAS Y MENSAJES</text>
-  <text x="54" y="322" class="suave">Mándale el informe a Marta el jueves.</text>
+  <text x="54" y="322" class="suave">Movemos la reunión de mañana porque Marta no puede, mejor el jueves.</text>
   <rect x="32" y="350" width="656" height="76" rx="11" class="panel"/>
   <text x="54" y="380" class="rotulo">REDACTADO · CORREOS</text>
-  <text x="54" y="410" class="fuerte">Te envío el informe a Marta el jueves.</text>
+  <text x="54" y="410" class="fuerte">Movemos la reunión de mañana al jueves: Marta no puede.</text>
 </svg>

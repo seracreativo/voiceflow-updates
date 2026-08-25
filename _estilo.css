@@ -278,3 +278,6 @@ footer p { margin-bottom: .5rem; }
 .grafico .capstxt { fill: #34e07a; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
 .grafico .onda    { stroke: #34e07a; stroke-width: 3; stroke-linecap: round; }
 .grafico .paso    { fill: var(--caja); }
+/* El cursor de texto: va pegado al final de la frase, que es donde
+   estaría de verdad. */
+.grafico .cursor  { stroke: var(--acento); stroke-width: 2; }

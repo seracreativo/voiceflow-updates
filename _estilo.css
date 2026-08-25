@@ -199,6 +199,14 @@ ul.checks li::before { content: "✓"; position: absolute; left: 0;
                        color: var(--check); font-weight: 700; }
 ul.checks li strong { color: var(--tinta); font-weight: 600; }
 
+/* Para enumerar pegas, no virtudes. Mismo ritmo que .checks pero sin el visto
+   verde, que delante de un inconveniente dice lo contrario de lo que cuenta. */
+ul.pegas li { position: relative; padding-left: 1.8rem; margin-bottom: .7rem;
+              color: var(--suave); list-style: none; }
+ul.pegas li::before { content: "—"; position: absolute; left: 0; color: var(--suave); }
+ul.pegas { padding-left: 0; }
+ul.pegas li strong { color: var(--tinta); font-weight: 600; }
+
 /* ── Cajas ─────────────────────────────────────────────────────────────── */
 .caja { background: var(--caja); border: 1px solid var(--linea);
         border-radius: 1.2rem; padding: 2rem; margin: 2rem 0; }
@@ -297,3 +305,19 @@ footer p { margin-bottom: .5rem; }
 .grafico .btn1txt    { fill: #0d0d0e; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
 .grafico .btn1tecla  { fill: #1f7a39; font: 500 15px 'Inter Tight', system-ui, sans-serif; }
 
+/* ── Tablas de «esto sí, esto no» ──────────────────────────────────────────────
+   Se usan para decir con claridad qué funciona sin conexión y qué no. La columna
+   del veredicto va en color, pero nunca SOLO en color: lleva su palabra al lado,
+   que es lo que lee quien no distingue el verde del rojo. */
+.tabla { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 1rem; }
+.tabla th, .tabla td { text-align: left; padding: 0.85rem 0.5rem;
+                       border-bottom: 1px solid var(--linea); }
+.tabla th { font-size: 0.8rem; font-weight: 500; letter-spacing: 1.2px;
+            text-transform: uppercase; color: var(--suave); }
+.tabla td { color: var(--tinta); }
+.tabla td.si  { color: var(--check); font-weight: 500; white-space: nowrap; }
+.tabla td.no  { color: var(--suave); }
+@media (max-width: 640px) {
+  .tabla { font-size: 0.9rem; }
+  .tabla th, .tabla td { padding: 0.7rem 0.35rem; }
+}

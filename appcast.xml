@@ -3,6 +3,24 @@
     <channel>
         <title>voiceflow</title>
         <item>
+            <title>1.3.3</title>
+            <pubDate>Wed, 26 Aug 2026 02:09:58 +0200</pubDate>
+            <link>https://voiceflow.seracreativo.com/</link>
+            <sparkle:fullReleaseNotesLink>https://voiceflow.seracreativo.com/notas-de-version/</sparkle:fullReleaseNotesLink>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.3.3.zip" length="6856593" type="application/octet-stream" sparkle:edSignature="o1TT/OLEnium5Iy6POYnE/gn3JQW7Qy51l+AH/UW9AbKOGY+5xSGqRjvkKcnTq1X0nWKe6o+5bCpVN8aZlCZBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow10-9.delta" sparkle:deltaFrom="9" length="275634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Yvn/Xe9tvK6z+crmqrMQT4XB4hsh6pzu/jTza4KA2vfOYJ/Z1vjN9fLmgwn6KVGYM+WOUZK1oSaEJHNeBwC+Ag=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow10-8.delta" sparkle:deltaFrom="8" length="285038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hn4W+JzEizGZg4nRzkx9xNke+fNQ/bU6gT7tCqwYTf18zQAQFDVAIS+CER6fCfuLl+N4AOndL+0VwNj1Rpk8Aw=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow10-6.delta" sparkle:deltaFrom="6" length="320118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="daHU60m/qCxR2u+4dxXZ0dGxYX/nvG+tpdULRhWtgtC6ewjVF2zma/WwXd0vJV5znjOy72lIVB3cQ4Zjp/8eDA=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow10-5.delta" sparkle:deltaFrom="5" length="371814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="siwUcIYg9H+ZxUeV9/6GUj13quasGDQe8nCsT1F67TmKHT2iZkoVj0ZOCF3janQpUaOQyr16+WiD1rH9LHe+AA=="/>
+                <enclosure url="https://voiceflow.seracreativo.com/voiceflow10-4.delta" sparkle:deltaFrom="4" length="410654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Sd7+CiVNKRMMtwpcOHRYEASRG01EGJhp22UE9Si34LUExOwJL/SCIFX/KBvS+ifjxlxHD30D0OzM7g6BXXaMDw=="/>
+            </sparkle:deltas>
+            <sparkle:releaseNotesLink>https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.3.html</sparkle:releaseNotesLink>
+        </item>
+        <item>
             <title>1.3.2</title>
             <pubDate>Wed, 26 Aug 2026 00:03:28 +0200</pubDate>
             <sparkle:version>9</sparkle:version>
@@ -16,6 +34,7 @@
                 <enclosure url="https://voiceflow.seracreativo.com/voiceflow9-4.delta" sparkle:deltaFrom="4" length="398334" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1zUxnWXeOx/S4nJkCorM6ZubUuL5mb67fk1mu6WojqD+QcAnuX22nfg/8VW2xKCIf82MpdkM+75Hbps3TvQXCg=="/>
                 <enclosure url="https://voiceflow.seracreativo.com/voiceflow9-2.delta" sparkle:deltaFrom="2" length="440042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BYlasu2fdkFBnYXyxNC7gXBSzvJAa/CMYOxfs5oYvDFQdK39WNHW3Eztn3kg0j+74eD64h7IXUyepT0G+5TFBw=="/>
             </sparkle:deltas>
+            <sparkle:releaseNotesLink>https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.2.html</sparkle:releaseNotesLink>
         </item>
         <item>
             <title>1.3.1</title>
@@ -30,19 +49,7 @@
                 <enclosure url="https://voiceflow.seracreativo.com/voiceflow8-4.delta" sparkle:deltaFrom="4" length="385814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rnXkEqUzSVwFnweXACcwdCv+vLmrnV73J8mmf6+opGPTRLpDWCF7zifkrDxuobW80weOXts2D6V2a84wvDubCw=="/>
                 <enclosure url="https://voiceflow.seracreativo.com/voiceflow8-2.delta" sparkle:deltaFrom="2" length="430298" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="IRil0qJn2jB1H6jUc9cI+zcJWiXEV64TaC3TVzqBuhon6StIdv76jPuhBhBzAxOFydiqdufeOxKMkRM/2xzfAA=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.0</title>
-            <pubDate>Tue, 25 Aug 2026 22:45:06 +0200</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.3.0.zip" length="6842959" type="application/octet-stream" sparkle:edSignature="S3RsEDAf6WEgYS/muLVi4qgasAUxfXFa2RDaD/eQqEAqYdTMmi6HrOUliEgh5Nm4D2uCkRRlVitYNEjEbipDAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://voiceflow.seracreativo.com/voiceflow6-5.delta" sparkle:deltaFrom="5" length="322074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="U+Ac7j4cYv5u9XFx6CvZNXHSUozHzpO/eC8ajbzEUUX15wJGRcSU03y1XA/R98Xsuwk/sNCT4KLMuniXt6zhBA=="/>
-                <enclosure url="https://voiceflow.seracreativo.com/voiceflow6-4.delta" sparkle:deltaFrom="4" length="363250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="R4YxtlP+aLzq1aPYQqexc8n7G1fb58LJfoVf5KN0mKZs+boMacU13GPGZJsbWgvxIbBmdDpCFORy8J6TeQ8yAg=="/>
-                <enclosure url="https://voiceflow.seracreativo.com/voiceflow6-2.delta" sparkle:deltaFrom="2" length="413230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AoB9Jxl6pzksnCvHhosO7KuJwfvP/p7FVOlEk/v4GgAU9XM7T2S6TAiTjk3dJ99x/hb3twid2agOqp6vgeFWDA=="/>
-            </sparkle:deltas>
+            <sparkle:releaseNotesLink>https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.1.html</sparkle:releaseNotesLink>
         </item>
     </channel>
 </rss>

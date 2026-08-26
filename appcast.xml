@@ -10,7 +10,8 @@
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.4.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.4.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://voiceflow.seracreativo.com/notas/en/VoiceFlow-1.3.4.html</sparkle:releaseNotesLink>
             <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.3.4.zip" length="6861511" type="application/octet-stream" sparkle:edSignature="g0N94/wF5UAZlHvRQlWjq7vuGIZifBTxjy0PTrfPPWHNtrS1Ge09NsQ25P2K1Si0UOfeC7B95AB00XS/kSEgAg=="/>
             <sparkle:deltas>
                 <enclosure url="https://voiceflow.seracreativo.com/voiceflow13-10.delta" sparkle:deltaFrom="10" length="298826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pn5Imiu1woXQ+UVTKX/X6KjwofKVvyHUFcIecQFV3ywnNxKZUFBeLbz0YdE27MiZiULel1OQplsw66Y8iU7gDA=="/>
@@ -24,7 +25,8 @@
             <sparkle:version>10</sparkle:version>
             <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.3.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.3.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://voiceflow.seracreativo.com/notas/en/VoiceFlow-1.3.3.html</sparkle:releaseNotesLink>
             <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.3.3.zip" length="6856593" type="application/octet-stream" sparkle:edSignature="o1TT/OLEnium5Iy6POYnE/gn3JQW7Qy51l+AH/UW9AbKOGY+5xSGqRjvkKcnTq1X0nWKe6o+5bCpVN8aZlCZBg=="/>
         </item>
         <item>
@@ -35,7 +37,8 @@
             <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.2.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="es">https://voiceflow.seracreativo.com/notas/VoiceFlow-1.3.2.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink xml:lang="en">https://voiceflow.seracreativo.com/notas/en/VoiceFlow-1.3.2.html</sparkle:releaseNotesLink>
             <enclosure url="https://voiceflow.seracreativo.com/VoiceFlow-1.3.2.zip" length="6849021" type="application/octet-stream" sparkle:edSignature="Ucz40RaHg0hewYKc1/+VmuzPHqmXmXtwZ9s3RvfavgcGFsUrBIZyUyykZqeeCDmfHjaFTwa5ggsyf1O5+0k1BA=="/>
         </item>
     </channel>

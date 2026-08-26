@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>What VoiceFlow stores, and where · Privacy</title>
+  <meta name="description" content="What gets stored, where, what travels over iCloud and what never leaves the Mac. With the full list of the connections the app makes and when.">
+  <link rel="alternate" hreflang="es" href="https://voiceflow.seracreativo.com/privacidad/">
+  <link rel="alternate" hreflang="en" href="https://voiceflow.seracreativo.com/en/privacy/">
+  <link rel="alternate" hreflang="x-default" href="https://voiceflow.seracreativo.com/privacidad/">
+  <link rel="canonical" href="https://voiceflow.seracreativo.com/en/privacy/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="VoiceFlow">
+  <meta property="og:title" content="What VoiceFlow stores, and where">
+  <meta property="og:description" content="What gets stored, where, and every connection the app makes.">
+  <meta property="og:url" content="https://voiceflow.seracreativo.com/en/privacy/">
+  <meta property="og:image" content="https://voiceflow.seracreativo.com/img/og-en.png">
+  <meta property="og:image:alt" content="VoiceFlow: you talk, it's written. Voice dictation for Mac.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/img/icono-64.png">
+  <link rel="apple-touch-icon" href="/img/icono.png">
+  <link rel="stylesheet" href="/_estilo.css">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0d10" media="(prefers-color-scheme: dark)">
+</head>
+<body>
+<div class="lineas" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+<nav>
+  <div class="limite">
+    <a class="marca" href="/en/"><img src="/img/icono-64.png" alt="">VoiceFlow</a>
+    <div class="enlaces">
+      <a class="nav" href="/en/#what">What it does</a>
+      <a class="nav" href="/en/#translator">Translator</a>
+      <a class="nav" href="/en/#engine">Engine</a>
+      <a class="nav" href="/en/#pricing">Pricing</a>
+      <a class="nav" href="/en/#licence">Licence</a>
+    </div>
+    <a class="nav" href="/privacidad/">ES</a>
+      <a class="boton" href="/VoiceFlow.zip" download>Download</a>
+  </div>
+</nav>
+<header class="hero limite">
+  <h1>What gets stored, and where</h1>
+  <p class="entradilla">No legalese and no hedging. If something here doesn't sit right with you, better to know before you install it than after.</p>
+</header>
+
+<div class="limite">
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">01 · The important bit</p>
+      <h3>The audio and the text don't leave your Mac.</h3>
+      <p class="apagado">The transcription is done by the system's own speech engine, and the cleanup is handled by rules and the language model macOS already ships with. There is no server of ours in the middle.</p>
+      <p class="apagado">This isn't a privacy policy: <strong>the code that would send the audio anywhere doesn't exist</strong>. You can check it without taking our word for it — turn off the Wi-Fi and keep dictating.</p>
+      <ul class="checks">
+        <li><strong>The audio</strong> isn't stored anywhere, not even on your Mac: it's transcribed and discarded.</li>
+        <li><strong>The dictated text</strong> stays in your local history.</li>
+        <li><strong>There are no accounts</strong>, no sign-up, no email.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">02 · What gets stored</p>
+      <h3>All on your Mac, and not much of it.</h3>
+      <p class="apagado">It lives in the app's preferences file, next to the settings. There's no database and no hidden folder.</p>
+      <ul class="checks">
+        <li><strong>The history</strong> — the last <strong>200</strong> transcriptions. At that point the oldest one falls off.</li>
+        <li><strong>Your vocabulary</strong> — the terms you teach it.</li>
+        <li><strong>The settings</strong> — the shortcut, the language, the level for each app.</li>
+        <li><strong>The licence</strong>, in your iCloud Keychain.</li>
+        <li><strong>The Whisper models</strong>, if you turn Whisper on, in Application Support.</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">03 · What travels</p>
+      <h3>Nineteen settings, and not the history.</h3>
+      <p class="apagado">If you have iCloud, your settings sync across your devices. The list is explicit in the code and contains settings only: the shortcut, the language, the tone, the vocabulary and the translator's preferences.</p>
+      <p class="apagado"><strong>The history isn't on that list</strong>, and that's not an oversight. It's the most sensitive thing the app holds — everything you've dictated — and taking it off the device is the decision the rest of the program refuses to make on its own.</p>
+      <p class="apagado">The list is closed on purpose: with a «sync whatever is in preferences», the day someone added a key without thinking, the history would start travelling, and nobody finds that out until it's late.</p>
+    </div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">04 · The permissions</p>
+      <h3>Two of them, and the ones it doesn't ask for.</h3>
+      <p class="apagado">macOS will ask for the <strong>microphone</strong>, so it can hear you, and <strong>Accessibility</strong>, which is the only way the system lets an app type inside another one. Without the second, VoiceFlow can transcribe but it can't type for you.</p>
+      <p class="apagado">Just as important is what it does <strong>not</strong> ask for, because that's where other dictation apps take liberties:</p>
+      <ul class="checks">
+        <li><strong>Screen recording</strong> — it doesn't ask, and it won't</li>
+        <li><strong>Camera, contacts, calendar, photos, location</strong> — none of them</li>
+        <li><strong>Access to your folders</strong> — not Desktop, not Documents, not Downloads</li>
+      </ul>
+    </div>
+  </section>
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">05 · The connections</p>
+      <h3>The six that exist, and when.</h3>
+      <p class="apagado">Saying «it doesn't connect to anything» would be false: checking for updates is a connection. These are all of them, with what triggers each.</p>
+      <p class="apagado">None of them carries the audio or the dictated text.</p>
+    </div>
+    <div class="media"><div class="marco">
+      <div class="conNota">
+      <table class="tabla">
+        <thead><tr><th>Connection</th><th>When</th></tr></thead>
+        <tbody>
+          <tr><td>voiceflow.seracreativo.com<br><span class="nota">checking for updates</span></td>
+              <td class="no">On launch, if you have it turned on</td></tr>
+          <tr><td>Apple iCloud<br><span class="nota">settings and licence</span></td>
+              <td class="no">When you change a setting on the list</td></tr>
+          <tr><td>CloudKit<br><span class="nota">reading your account's fingerprint</span></td>
+              <td class="no">Only when you press «Link my account»</td></tr>
+          <tr><td>Apple<br><span class="nota">downloading a translation language</span></td>
+              <td class="no">The first time you use that pair</td></tr>
+          <tr><td>huggingface.co<br><span class="nota">downloading a Whisper model</span></td>
+              <td class="no">Only if you turn Whisper on</td></tr>
+          <tr><td>Google<br><span class="nota">polishing a translation</span></td>
+              <td class="no">Only if you turn it on, with your own key</td></tr>
+        </tbody>
+      </table>
+      <p class="nota">These six are all of them. They come from the URLs that appear in
+      the app's source code, not from a list written from memory.</p>
+      </div>
+    </div></div>
+  </section>
+  <section class="fila derecha">
+    <div class="texto">
+      <p class="kicker">06 · The exception</p>
+      <h3>Polishing a translation with a large model.</h3>
+      <p class="apagado">There is one feature, <strong>off out of the box</strong>, that sends the <em>already translated</em> text to a Google model so it reads more naturally. It handles idioms the on-device model won't touch.</p>
+      <p class="apagado"><strong>That does leave your Mac</strong>, and it's the opposite of what the rest of the app promises. That's why it ships disabled, why the access key is yours and not ours, and why the setting says so in these same words instead of talking about «the cloud».</p>
+      <p class="apagado">It doesn't affect dictation. If you never turn it on, it never happens.</p>
+    </div>
+  </section>
+  <section class="fila">
+    <div class="texto">
+      <p class="kicker">07 · Deleting it</p>
+      <h3>All of it, in a moment.</h3>
+      <p class="apagado">The history is cleared from inside the app, all at once or entry by entry. The settings and the history live in the preferences file for <code>com.seracreativo.voiceflow</code>; deleting the app and that file leaves nothing behind.</p>
+      <p class="apagado">The licence is in your iCloud Keychain and is removed from Settings › Licence. Because the keychain syncs, it goes from all your devices at once.</p>
+    </div>
+  </section>
+</div>
+
+<section class="limite bloque">
+  <p class="kicker">Try it</p>
+  <h2>Free to start.</h2>
+  <p class="apagado">With 14 days of everything in Pro. No account, no email and no
+  form: you download it and that's it.</p>
+  <div class="acciones">
+    <a class="boton" href="/VoiceFlow.zip" download>Download for Mac</a>
+    <a class="boton2" href="/en/">See what it does</a>
+  </div>
+  <p class="requisitos">Version <span id="version">1.3.4</span> · 6.5 MB ·
+  Intel and Apple&nbsp;Silicon · requires macOS&nbsp;26</p>
+</section>
+<footer>
+  <div class="limite">
+    <p><a href="/en/buy/">Buy Pro</a> · <a href="/en/licence/">The licence</a> · <a href="/en/privacy/">Privacy</a> · <a href="/en/release-notes/">Release notes</a></p>
+    <p class="nota">Made in Spain. The app has no accounts and no telemetry: what you dictate never leaves your Mac.</p>
+  </div>
+</footer>
+
+<!-- Cloudflare Web Analytics: cuenta visitas del sitio sin cookies y sin huella del
+     visitante, así que no hay nada que consentir y no lleva banner. No tiene relación
+     con la app: lo que se dicta sigue sin salir del Mac. -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "0e7438bd038744daa928f862cc8375f4"}'></script>
